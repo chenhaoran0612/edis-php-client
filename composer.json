@@ -7,5 +7,7 @@
             "email": "chrloveyou@126.com"
         }
     ],
-    "require": {}
+    "require": {
+      "/": "*@dev"
+    }
 }
