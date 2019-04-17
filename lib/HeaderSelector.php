@@ -41,7 +41,7 @@ use \Exception;
 class HeaderSelector
 {
 
-    const SDKVERSION = '2.0.1';
+    const SDKVERSION = '3';
     /**
      * @param string[] $accept
      * @param string[] $contentTypes

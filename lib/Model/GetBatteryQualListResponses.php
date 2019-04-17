@@ -1,6 +1,6 @@
 <?php
 /**
- * DirectionsResponses
+ * GetBatteryQualListResponses
  *
  * PHP version 5
  *
@@ -33,15 +33,14 @@ use \ArrayAccess;
 use \Swagger\Client\ObjectSerializer;
 
 /**
- * DirectionsResponses Class Doc Comment
+ * GetBatteryQualListResponses Class Doc Comment
  *
  * @category Class
- * @description 路向信息
  * @package  Swagger\Client
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
-class DirectionsResponses implements ModelInterface, ArrayAccess
+class GetBatteryQualListResponses implements ModelInterface, ArrayAccess
 {
     const DISCRIMINATOR = null;
 
@@ -50,7 +49,7 @@ class DirectionsResponses implements ModelInterface, ArrayAccess
       *
       * @var string
       */
-    protected static $swaggerModelName = 'DirectionsResponses';
+    protected static $swaggerModelName = 'GetBatteryQualListResponses';
 
     /**
       * Array of property to type mappings. Used for (de)serialization
@@ -58,9 +57,8 @@ class DirectionsResponses implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'battery_types' => 'string',
-        'from' => 'string',
-        'to' => 'string'
+        'data' => '\Swagger\Client\Model\GetBatteryQualListResponsesData',
+        'status' => '\Swagger\Client\Model\ResponsesStatus'
     ];
 
     /**
@@ -69,9 +67,8 @@ class DirectionsResponses implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerFormats = [
-        'battery_types' => null,
-        'from' => null,
-        'to' => null
+        'data' => null,
+        'status' => null
     ];
 
     /**
@@ -101,9 +98,8 @@ class DirectionsResponses implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $attributeMap = [
-        'battery_types' => 'batteryTypes',
-        'from' => 'from',
-        'to' => 'to'
+        'data' => 'data',
+        'status' => 'status'
     ];
 
     /**
@@ -112,9 +108,8 @@ class DirectionsResponses implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $setters = [
-        'battery_types' => 'setBatteryTypes',
-        'from' => 'setFrom',
-        'to' => 'setTo'
+        'data' => 'setData',
+        'status' => 'setStatus'
     ];
 
     /**
@@ -123,9 +118,8 @@ class DirectionsResponses implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $getters = [
-        'battery_types' => 'getBatteryTypes',
-        'from' => 'getFrom',
-        'to' => 'getTo'
+        'data' => 'getData',
+        'status' => 'getStatus'
     ];
 
     /**
@@ -188,9 +182,8 @@ class DirectionsResponses implements ModelInterface, ArrayAccess
      */
     public function __construct(array $data = null)
     {
-        $this->container['battery_types'] = isset($data['battery_types']) ? $data['battery_types'] : null;
-        $this->container['from'] = isset($data['from']) ? $data['from'] : null;
-        $this->container['to'] = isset($data['to']) ? $data['to'] : null;
+        $this->container['data'] = isset($data['data']) ? $data['data'] : null;
+        $this->container['status'] = isset($data['status']) ? $data['status'] : null;
     }
 
     /**
@@ -202,14 +195,11 @@ class DirectionsResponses implements ModelInterface, ArrayAccess
     {
         $invalidProperties = [];
 
-        if ($this->container['battery_types'] === null) {
-            $invalidProperties[] = "'battery_types' can't be null";
+        if ($this->container['data'] === null) {
+            $invalidProperties[] = "'data' can't be null";
         }
-        if ($this->container['from'] === null) {
-            $invalidProperties[] = "'from' can't be null";
-        }
-        if ($this->container['to'] === null) {
-            $invalidProperties[] = "'to' can't be null";
+        if ($this->container['status'] === null) {
+            $invalidProperties[] = "'status' can't be null";
         }
         return $invalidProperties;
     }
@@ -227,73 +217,49 @@ class DirectionsResponses implements ModelInterface, ArrayAccess
 
 
     /**
-     * Gets battery_types
+     * Gets data
      *
-     * @return string
+     * @return \Swagger\Client\Model\GetBatteryQualListResponsesData
      */
-    public function getBatteryTypes()
+    public function getData()
     {
-        return $this->container['battery_types'];
+        return $this->container['data'];
     }
 
     /**
-     * Sets battery_types
+     * Sets data
      *
-     * @param string $battery_types 带电类型集合 例：1,2,3。<a target='_blank' href='/open/development-guide-detail?id=63'>请参考带电类型枚举(LiBatteryTypeEnum)说明</a>
+     * @param \Swagger\Client\Model\GetBatteryQualListResponsesData $data data
      *
      * @return $this
      */
-    public function setBatteryTypes($battery_types)
+    public function setData($data)
     {
-        $this->container['battery_types'] = $battery_types;
+        $this->container['data'] = $data;
 
         return $this;
     }
 
     /**
-     * Gets from
+     * Gets status
      *
-     * @return string
+     * @return \Swagger\Client\Model\ResponsesStatus
      */
-    public function getFrom()
+    public function getStatus()
     {
-        return $this->container['from'];
+        return $this->container['status'];
     }
 
     /**
-     * Sets from
+     * Sets status
      *
-     * @param string $from 起始国家代码
+     * @param \Swagger\Client\Model\ResponsesStatus $status status
      *
      * @return $this
      */
-    public function setFrom($from)
+    public function setStatus($status)
     {
-        $this->container['from'] = $from;
-
-        return $this;
-    }
-
-    /**
-     * Gets to
-     *
-     * @return string
-     */
-    public function getTo()
-    {
-        return $this->container['to'];
-    }
-
-    /**
-     * Sets to
-     *
-     * @param string $to 目标国家代码
-     *
-     * @return $this
-     */
-    public function setTo($to)
-    {
-        $this->container['to'] = $to;
+        $this->container['status'] = $status;
 
         return $this;
     }

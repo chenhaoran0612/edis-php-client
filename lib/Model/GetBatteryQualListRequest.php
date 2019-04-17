@@ -1,6 +1,6 @@
 <?php
 /**
- * DirectionsResponses
+ * GetBatteryQualListRequest
  *
  * PHP version 5
  *
@@ -33,15 +33,14 @@ use \ArrayAccess;
 use \Swagger\Client\ObjectSerializer;
 
 /**
- * DirectionsResponses Class Doc Comment
+ * GetBatteryQualListRequest Class Doc Comment
  *
  * @category Class
- * @description 路向信息
  * @package  Swagger\Client
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
-class DirectionsResponses implements ModelInterface, ArrayAccess
+class GetBatteryQualListRequest implements ModelInterface, ArrayAccess
 {
     const DISCRIMINATOR = null;
 
@@ -50,7 +49,7 @@ class DirectionsResponses implements ModelInterface, ArrayAccess
       *
       * @var string
       */
-    protected static $swaggerModelName = 'DirectionsResponses';
+    protected static $swaggerModelName = 'GetBatteryQualListRequest';
 
     /**
       * Array of property to type mappings. Used for (de)serialization
@@ -58,9 +57,10 @@ class DirectionsResponses implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'battery_types' => 'string',
-        'from' => 'string',
-        'to' => 'string'
+        'data' => '\Swagger\Client\Model\GetBatteryQualListRequestData',
+        'ebay_id' => 'string',
+        'message_id' => 'string',
+        'timestamp' => 'int'
     ];
 
     /**
@@ -69,9 +69,10 @@ class DirectionsResponses implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerFormats = [
-        'battery_types' => null,
-        'from' => null,
-        'to' => null
+        'data' => null,
+        'ebay_id' => null,
+        'message_id' => null,
+        'timestamp' => 'int64'
     ];
 
     /**
@@ -101,9 +102,10 @@ class DirectionsResponses implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $attributeMap = [
-        'battery_types' => 'batteryTypes',
-        'from' => 'from',
-        'to' => 'to'
+        'data' => 'data',
+        'ebay_id' => 'ebayId',
+        'message_id' => 'messageId',
+        'timestamp' => 'timestamp'
     ];
 
     /**
@@ -112,9 +114,10 @@ class DirectionsResponses implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $setters = [
-        'battery_types' => 'setBatteryTypes',
-        'from' => 'setFrom',
-        'to' => 'setTo'
+        'data' => 'setData',
+        'ebay_id' => 'setEbayId',
+        'message_id' => 'setMessageId',
+        'timestamp' => 'setTimestamp'
     ];
 
     /**
@@ -123,9 +126,10 @@ class DirectionsResponses implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $getters = [
-        'battery_types' => 'getBatteryTypes',
-        'from' => 'getFrom',
-        'to' => 'getTo'
+        'data' => 'getData',
+        'ebay_id' => 'getEbayId',
+        'message_id' => 'getMessageId',
+        'timestamp' => 'getTimestamp'
     ];
 
     /**
@@ -188,9 +192,10 @@ class DirectionsResponses implements ModelInterface, ArrayAccess
      */
     public function __construct(array $data = null)
     {
-        $this->container['battery_types'] = isset($data['battery_types']) ? $data['battery_types'] : null;
-        $this->container['from'] = isset($data['from']) ? $data['from'] : null;
-        $this->container['to'] = isset($data['to']) ? $data['to'] : null;
+        $this->container['data'] = isset($data['data']) ? $data['data'] : null;
+        $this->container['ebay_id'] = isset($data['ebay_id']) ? $data['ebay_id'] : null;
+        $this->container['message_id'] = isset($data['message_id']) ? $data['message_id'] : null;
+        $this->container['timestamp'] = isset($data['timestamp']) ? $data['timestamp'] : null;
     }
 
     /**
@@ -202,14 +207,17 @@ class DirectionsResponses implements ModelInterface, ArrayAccess
     {
         $invalidProperties = [];
 
-        if ($this->container['battery_types'] === null) {
-            $invalidProperties[] = "'battery_types' can't be null";
+        if ($this->container['data'] === null) {
+            $invalidProperties[] = "'data' can't be null";
         }
-        if ($this->container['from'] === null) {
-            $invalidProperties[] = "'from' can't be null";
+        if ($this->container['ebay_id'] === null) {
+            $invalidProperties[] = "'ebay_id' can't be null";
         }
-        if ($this->container['to'] === null) {
-            $invalidProperties[] = "'to' can't be null";
+        if ($this->container['message_id'] === null) {
+            $invalidProperties[] = "'message_id' can't be null";
+        }
+        if ($this->container['timestamp'] === null) {
+            $invalidProperties[] = "'timestamp' can't be null";
         }
         return $invalidProperties;
     }
@@ -227,73 +235,97 @@ class DirectionsResponses implements ModelInterface, ArrayAccess
 
 
     /**
-     * Gets battery_types
+     * Gets data
      *
-     * @return string
+     * @return \Swagger\Client\Model\GetBatteryQualListRequestData
      */
-    public function getBatteryTypes()
+    public function getData()
     {
-        return $this->container['battery_types'];
+        return $this->container['data'];
     }
 
     /**
-     * Sets battery_types
+     * Sets data
      *
-     * @param string $battery_types 带电类型集合 例：1,2,3。<a target='_blank' href='/open/development-guide-detail?id=63'>请参考带电类型枚举(LiBatteryTypeEnum)说明</a>
+     * @param \Swagger\Client\Model\GetBatteryQualListRequestData $data data
      *
      * @return $this
      */
-    public function setBatteryTypes($battery_types)
+    public function setData($data)
     {
-        $this->container['battery_types'] = $battery_types;
+        $this->container['data'] = $data;
 
         return $this;
     }
 
     /**
-     * Gets from
+     * Gets ebay_id
      *
      * @return string
      */
-    public function getFrom()
+    public function getEbayId()
     {
-        return $this->container['from'];
+        return $this->container['ebay_id'];
     }
 
     /**
-     * Sets from
+     * Sets ebay_id
      *
-     * @param string $from 起始国家代码
+     * @param string $ebay_id 卖家eBay账户
      *
      * @return $this
      */
-    public function setFrom($from)
+    public function setEbayId($ebay_id)
     {
-        $this->container['from'] = $from;
+        $this->container['ebay_id'] = $ebay_id;
 
         return $this;
     }
 
     /**
-     * Gets to
+     * Gets message_id
      *
      * @return string
      */
-    public function getTo()
+    public function getMessageId()
     {
-        return $this->container['to'];
+        return $this->container['message_id'];
     }
 
     /**
-     * Sets to
+     * Sets message_id
      *
-     * @param string $to 目标国家代码
+     * @param string $message_id 消息ID
      *
      * @return $this
      */
-    public function setTo($to)
+    public function setMessageId($message_id)
     {
-        $this->container['to'] = $to;
+        $this->container['message_id'] = $message_id;
+
+        return $this;
+    }
+
+    /**
+     * Gets timestamp
+     *
+     * @return int
+     */
+    public function getTimestamp()
+    {
+        return $this->container['timestamp'];
+    }
+
+    /**
+     * Sets timestamp
+     *
+     * @param int $timestamp 时间戳
+     *
+     * @return $this
+     */
+    public function setTimestamp($timestamp)
+    {
+        $this->container['timestamp'] = $timestamp;
 
         return $this;
     }

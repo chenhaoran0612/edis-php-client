@@ -1,0 +1,852 @@
+[02-Apr-2019 17:40:05 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Swagger\Client\Controller\favicon.ico' not found in D:\WorkSpace\Other\ebayis\bootstrap.php:107
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\index.php(5): require()
+#1 {main}
+  thrown in D:\WorkSpace\Other\ebayis\bootstrap.php on line 107
+[02-Apr-2019 17:41:39 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Swagger\Client\Controller\favicon.ico' not found in D:\WorkSpace\Other\ebayis\bootstrap.php:107
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\index.php(5): require()
+#1 {main}
+  thrown in D:\WorkSpace\Other\ebayis\bootstrap.php on line 107
+[02-Apr-2019 18:05:53 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Swagger\Client\Controller\favicon.ico' not found in D:\WorkSpace\Other\ebayis\bootstrap.php:107
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\index.php(5): require()
+#1 {main}
+  thrown in D:\WorkSpace\Other\ebayis\bootstrap.php on line 107
+[02-Apr-2019 18:12:31 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Swagger\Client\Controller\favicon.ico' not found in D:\WorkSpace\Other\ebayis\bootstrap.php:107
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\index.php(5): require()
+#1 {main}
+  thrown in D:\WorkSpace\Other\ebayis\bootstrap.php on line 107
+[02-Apr-2019 18:34:27 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Swagger\Client\Controller\favicon.ico' not found in D:\WorkSpace\Other\ebayis\bootstrap.php:107
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\index.php(3): require()
+#1 {main}
+  thrown in D:\WorkSpace\Other\ebayis\bootstrap.php on line 107
+[02-Apr-2019 18:42:17 Asia/Shanghai] PHP Notice:  Constant AUTHORIZATION already defined in D:\WorkSpace\Other\ebayis\lib\Controller\config.php on line 2
+[02-Apr-2019 18:42:17 Asia/Shanghai] PHP Notice:  Constant EBAYID already defined in D:\WorkSpace\Other\ebayis\lib\Controller\config.php on line 3
+[02-Apr-2019 18:42:17 Asia/Shanghai] PHP Notice:  Constant AUTHORIZATION already defined in D:\WorkSpace\Other\ebayis\lib\Controller\config.php on line 2
+[02-Apr-2019 18:42:17 Asia/Shanghai] PHP Notice:  Constant EBAYID already defined in D:\WorkSpace\Other\ebayis\lib\Controller\config.php on line 3
+[02-Apr-2019 18:42:17 Asia/Shanghai] PHP Notice:  Constant AUTHORIZATION already defined in D:\WorkSpace\Other\ebayis\lib\Controller\config.php on line 2
+[02-Apr-2019 18:42:17 Asia/Shanghai] PHP Notice:  Constant EBAYID already defined in D:\WorkSpace\Other\ebayis\lib\Controller\config.php on line 3
+[02-Apr-2019 18:42:17 Asia/Shanghai] PHP Notice:  Constant AUTHORIZATION already defined in D:\WorkSpace\Other\ebayis\lib\Controller\config.php on line 2
+[02-Apr-2019 18:42:17 Asia/Shanghai] PHP Notice:  Constant EBAYID already defined in D:\WorkSpace\Other\ebayis\lib\Controller\config.php on line 3
+[02-Apr-2019 18:42:17 Asia/Shanghai] PHP Notice:  Constant AUTHORIZATION already defined in D:\WorkSpace\Other\ebayis\lib\Controller\config.php on line 2
+[02-Apr-2019 18:42:17 Asia/Shanghai] PHP Notice:  Constant EBAYID already defined in D:\WorkSpace\Other\ebayis\lib\Controller\config.php on line 3
+[02-Apr-2019 18:42:17 Asia/Shanghai] PHP Notice:  Constant AUTHORIZATION already defined in D:\WorkSpace\Other\ebayis\lib\Controller\config.php on line 2
+[02-Apr-2019 18:42:17 Asia/Shanghai] PHP Notice:  Constant EBAYID already defined in D:\WorkSpace\Other\ebayis\lib\Controller\config.php on line 3
+[02-Apr-2019 18:42:17 Asia/Shanghai] PHP Notice:  Constant AUTHORIZATION already defined in D:\WorkSpace\Other\ebayis\lib\Controller\config.php on line 2
+[02-Apr-2019 18:42:17 Asia/Shanghai] PHP Notice:  Constant EBAYID already defined in D:\WorkSpace\Other\ebayis\lib\Controller\config.php on line 3
+[02-Apr-2019 18:42:17 Asia/Shanghai] PHP Notice:  Constant AUTHORIZATION already defined in D:\WorkSpace\Other\ebayis\lib\Controller\config.php on line 2
+[02-Apr-2019 18:42:17 Asia/Shanghai] PHP Notice:  Constant EBAYID already defined in D:\WorkSpace\Other\ebayis\lib\Controller\config.php on line 3
+[02-Apr-2019 18:42:17 Asia/Shanghai] PHP Notice:  Constant AUTHORIZATION already defined in D:\WorkSpace\Other\ebayis\lib\Controller\config.php on line 2
+[02-Apr-2019 18:42:17 Asia/Shanghai] PHP Notice:  Constant EBAYID already defined in D:\WorkSpace\Other\ebayis\lib\Controller\config.php on line 3
+[02-Apr-2019 18:42:17 Asia/Shanghai] PHP Notice:  Constant AUTHORIZATION already defined in D:\WorkSpace\Other\ebayis\lib\Controller\config.php on line 2
+[02-Apr-2019 18:42:17 Asia/Shanghai] PHP Notice:  Constant EBAYID already defined in D:\WorkSpace\Other\ebayis\lib\Controller\config.php on line 3
+[02-Apr-2019 18:42:17 Asia/Shanghai] PHP Notice:  Constant AUTHORIZATION already defined in D:\WorkSpace\Other\ebayis\lib\Controller\config.php on line 2
+[02-Apr-2019 18:42:17 Asia/Shanghai] PHP Notice:  Constant EBAYID already defined in D:\WorkSpace\Other\ebayis\lib\Controller\config.php on line 3
+[02-Apr-2019 18:42:17 Asia/Shanghai] PHP Notice:  Constant AUTHORIZATION already defined in D:\WorkSpace\Other\ebayis\lib\Controller\config.php on line 2
+[02-Apr-2019 18:42:17 Asia/Shanghai] PHP Notice:  Constant EBAYID already defined in D:\WorkSpace\Other\ebayis\lib\Controller\config.php on line 3
+[02-Apr-2019 18:42:17 Asia/Shanghai] PHP Notice:  Constant AUTHORIZATION already defined in D:\WorkSpace\Other\ebayis\lib\Controller\config.php on line 2
+[02-Apr-2019 18:42:17 Asia/Shanghai] PHP Notice:  Constant EBAYID already defined in D:\WorkSpace\Other\ebayis\lib\Controller\config.php on line 3
+[02-Apr-2019 18:42:17 Asia/Shanghai] PHP Notice:  Constant AUTHORIZATION already defined in D:\WorkSpace\Other\ebayis\lib\Controller\config.php on line 2
+[02-Apr-2019 18:42:17 Asia/Shanghai] PHP Notice:  Constant EBAYID already defined in D:\WorkSpace\Other\ebayis\lib\Controller\config.php on line 3
+[02-Apr-2019 18:42:17 Asia/Shanghai] PHP Notice:  Constant AUTHORIZATION already defined in D:\WorkSpace\Other\ebayis\lib\Controller\config.php on line 2
+[02-Apr-2019 18:42:17 Asia/Shanghai] PHP Notice:  Constant EBAYID already defined in D:\WorkSpace\Other\ebayis\lib\Controller\config.php on line 3
+[02-Apr-2019 18:42:17 Asia/Shanghai] PHP Notice:  Constant AUTHORIZATION already defined in D:\WorkSpace\Other\ebayis\lib\Controller\config.php on line 2
+[02-Apr-2019 18:42:17 Asia/Shanghai] PHP Notice:  Constant EBAYID already defined in D:\WorkSpace\Other\ebayis\lib\Controller\config.php on line 3
+[02-Apr-2019 18:42:17 Asia/Shanghai] PHP Notice:  Constant AUTHORIZATION already defined in D:\WorkSpace\Other\ebayis\lib\Controller\config.php on line 2
+[02-Apr-2019 18:42:17 Asia/Shanghai] PHP Notice:  Constant EBAYID already defined in D:\WorkSpace\Other\ebayis\lib\Controller\config.php on line 3
+[02-Apr-2019 18:42:17 Asia/Shanghai] PHP Notice:  Constant AUTHORIZATION already defined in D:\WorkSpace\Other\ebayis\lib\Controller\config.php on line 2
+[02-Apr-2019 18:42:17 Asia/Shanghai] PHP Notice:  Constant EBAYID already defined in D:\WorkSpace\Other\ebayis\lib\Controller\config.php on line 3
+[02-Apr-2019 18:42:17 Asia/Shanghai] PHP Notice:  Constant AUTHORIZATION already defined in D:\WorkSpace\Other\ebayis\lib\Controller\config.php on line 2
+[02-Apr-2019 18:42:17 Asia/Shanghai] PHP Notice:  Constant EBAYID already defined in D:\WorkSpace\Other\ebayis\lib\Controller\config.php on line 3
+[02-Apr-2019 18:42:17 Asia/Shanghai] PHP Notice:  Constant AUTHORIZATION already defined in D:\WorkSpace\Other\ebayis\lib\Controller\config.php on line 2
+[02-Apr-2019 18:42:17 Asia/Shanghai] PHP Notice:  Constant EBAYID already defined in D:\WorkSpace\Other\ebayis\lib\Controller\config.php on line 3
+[02-Apr-2019 18:42:17 Asia/Shanghai] PHP Notice:  Constant AUTHORIZATION already defined in D:\WorkSpace\Other\ebayis\lib\Controller\config.php on line 2
+[02-Apr-2019 18:42:17 Asia/Shanghai] PHP Notice:  Constant EBAYID already defined in D:\WorkSpace\Other\ebayis\lib\Controller\config.php on line 3
+[02-Apr-2019 18:42:17 Asia/Shanghai] PHP Notice:  Constant AUTHORIZATION already defined in D:\WorkSpace\Other\ebayis\lib\Controller\config.php on line 2
+[02-Apr-2019 18:42:17 Asia/Shanghai] PHP Notice:  Constant EBAYID already defined in D:\WorkSpace\Other\ebayis\lib\Controller\config.php on line 3
+[02-Apr-2019 18:42:17 Asia/Shanghai] PHP Notice:  Constant AUTHORIZATION already defined in D:\WorkSpace\Other\ebayis\lib\Controller\config.php on line 2
+[02-Apr-2019 18:42:17 Asia/Shanghai] PHP Notice:  Constant EBAYID already defined in D:\WorkSpace\Other\ebayis\lib\Controller\config.php on line 3
+[02-Apr-2019 18:42:17 Asia/Shanghai] PHP Notice:  Constant AUTHORIZATION already defined in D:\WorkSpace\Other\ebayis\lib\Controller\config.php on line 2
+[02-Apr-2019 18:42:17 Asia/Shanghai] PHP Notice:  Constant EBAYID already defined in D:\WorkSpace\Other\ebayis\lib\Controller\config.php on line 3
+[02-Apr-2019 18:42:17 Asia/Shanghai] PHP Notice:  Constant AUTHORIZATION already defined in D:\WorkSpace\Other\ebayis\lib\Controller\config.php on line 2
+[02-Apr-2019 18:42:17 Asia/Shanghai] PHP Notice:  Constant EBAYID already defined in D:\WorkSpace\Other\ebayis\lib\Controller\config.php on line 3
+[02-Apr-2019 18:42:17 Asia/Shanghai] PHP Notice:  Constant AUTHORIZATION already defined in D:\WorkSpace\Other\ebayis\lib\Controller\config.php on line 2
+[02-Apr-2019 18:42:17 Asia/Shanghai] PHP Notice:  Constant EBAYID already defined in D:\WorkSpace\Other\ebayis\lib\Controller\config.php on line 3
+[02-Apr-2019 18:42:17 Asia/Shanghai] PHP Fatal error:  Uncaught ReflectionException: Class Swagger\Client\Controller\config does not exist in D:\WorkSpace\Other\ebayis\lib\Controller\Index.php:13
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\lib\Controller\Index.php(13): ReflectionClass->__construct('Swagger\\Client\\...')
+#1 D:\WorkSpace\Other\ebayis\bootstrap.php(108): Swagger\Client\Controller\Index->index()
+#2 D:\WorkSpace\Other\ebayis\index.php(3): require('D:\\WorkSpace\\Ot...')
+#3 {main}
+  thrown in D:\WorkSpace\Other\ebayis\lib\Controller\Index.php on line 13
+[02-Apr-2019 18:42:17 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Swagger\Client\Controller\favicon.ico' not found in D:\WorkSpace\Other\ebayis\bootstrap.php:107
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\index.php(3): require()
+#1 {main}
+  thrown in D:\WorkSpace\Other\ebayis\bootstrap.php on line 107
+[02-Apr-2019 18:48:13 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Swagger\Client\Controller\favicon.ico' not found in D:\WorkSpace\Other\ebayis\bootstrap.php:107
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\index.php(5): require()
+#1 {main}
+  thrown in D:\WorkSpace\Other\ebayis\bootstrap.php on line 107
+[02-Apr-2019 21:43:23 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Swagger\Client\Controller\favicon.ico' not found in D:\WorkSpace\Other\ebayis\bootstrap.php:107
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\index.php(5): require()
+#1 {main}
+  thrown in D:\WorkSpace\Other\ebayis\bootstrap.php on line 107
+[02-Apr-2019 21:43:42 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Swagger\Client\Controller\favicon.ico' not found in D:\WorkSpace\Other\ebayis\bootstrap.php:107
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\index.php(5): require()
+#1 {main}
+  thrown in D:\WorkSpace\Other\ebayis\bootstrap.php on line 107
+[02-Apr-2019 21:45:36 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Swagger\Client\Controller\favicon.ico' not found in D:\WorkSpace\Other\ebayis\bootstrap.php:107
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\index.php(5): require()
+#1 {main}
+  thrown in D:\WorkSpace\Other\ebayis\bootstrap.php on line 107
+[02-Apr-2019 21:46:08 Asia/Shanghai] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in D:\WorkSpace\Other\ebayis\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php on line 534
+[02-Apr-2019 21:46:08 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Swagger\Client\Controller\favicon.ico' not found in D:\WorkSpace\Other\ebayis\bootstrap.php:107
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\index.php(5): require()
+#1 {main}
+  thrown in D:\WorkSpace\Other\ebayis\bootstrap.php on line 107
+[02-Apr-2019 21:46:08 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Swagger\Client\Controller\favicon.ico' not found in D:\WorkSpace\Other\ebayis\bootstrap.php:107
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\index.php(5): require()
+#1 {main}
+  thrown in D:\WorkSpace\Other\ebayis\bootstrap.php on line 107
+[02-Apr-2019 21:46:08 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Swagger\Client\Controller\favicon.ico' not found in D:\WorkSpace\Other\ebayis\bootstrap.php:107
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\index.php(5): require()
+#1 {main}
+  thrown in D:\WorkSpace\Other\ebayis\bootstrap.php on line 107
+[02-Apr-2019 21:47:17 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Swagger\Client\Controller\favicon.ico' not found in D:\WorkSpace\Other\ebayis\bootstrap.php:107
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\index.php(5): require()
+#1 {main}
+  thrown in D:\WorkSpace\Other\ebayis\bootstrap.php on line 107
+[03-Apr-2019 09:35:58 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Swagger\Client\Controller\favicon.ico' not found in D:\WorkSpace\Other\ebayis\bootstrap.php:107
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\index.php(5): require()
+#1 {main}
+  thrown in D:\WorkSpace\Other\ebayis\bootstrap.php on line 107
+[03-Apr-2019 09:36:02 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Swagger\Client\Controller\favicon.ico' not found in D:\WorkSpace\Other\ebayis\bootstrap.php:107
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\index.php(5): require()
+#1 {main}
+  thrown in D:\WorkSpace\Other\ebayis\bootstrap.php on line 107
+[03-Apr-2019 09:39:13 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Swagger\Client\Controller\favicon.ico' not found in D:\WorkSpace\Other\ebayis\bootstrap.php:107
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\index.php(5): require()
+#1 {main}
+  thrown in D:\WorkSpace\Other\ebayis\bootstrap.php on line 107
+[03-Apr-2019 09:41:45 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Swagger\Client\Controller\favicon.ico' not found in D:\WorkSpace\Other\ebayis\bootstrap.php:107
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\index.php(5): require()
+#1 {main}
+  thrown in D:\WorkSpace\Other\ebayis\bootstrap.php on line 107
+[03-Apr-2019 13:50:54 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Swagger\Client\Controller\favicon.ico' not found in D:\WorkSpace\Other\ebayis\bootstrap.php:107
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\index.php(5): require()
+#1 {main}
+  thrown in D:\WorkSpace\Other\ebayis\bootstrap.php on line 107
+[03-Apr-2019 13:50:59 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Swagger\Client\Controller\favicon.ico' not found in D:\WorkSpace\Other\ebayis\bootstrap.php:107
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\index.php(5): require()
+#1 {main}
+  thrown in D:\WorkSpace\Other\ebayis\bootstrap.php on line 107
+[03-Apr-2019 13:59:09 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Swagger\Client\Controller\favicon.ico' not found in D:\WorkSpace\Other\ebayis\bootstrap.php:107
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\index.php(5): require()
+#1 {main}
+  thrown in D:\WorkSpace\Other\ebayis\bootstrap.php on line 107
+[03-Apr-2019 14:00:32 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Swagger\Client\Controller\favicon.ico' not found in D:\WorkSpace\Other\ebayis\bootstrap.php:107
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\index.php(5): require()
+#1 {main}
+  thrown in D:\WorkSpace\Other\ebayis\bootstrap.php on line 107
+[03-Apr-2019 14:03:04 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Swagger\Client\Controller\favicon.ico' not found in D:\WorkSpace\Other\ebayis\bootstrap.php:107
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\index.php(5): require()
+#1 {main}
+  thrown in D:\WorkSpace\Other\ebayis\bootstrap.php on line 107
+[03-Apr-2019 14:03:33 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Swagger\Client\Controller\favicon.ico' not found in D:\WorkSpace\Other\ebayis\bootstrap.php:107
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\index.php(5): require()
+#1 {main}
+  thrown in D:\WorkSpace\Other\ebayis\bootstrap.php on line 107
+[03-Apr-2019 14:04:46 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Swagger\Client\Controller\favicon.ico' not found in D:\WorkSpace\Other\ebayis\bootstrap.php:107
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\index.php(5): require()
+#1 {main}
+  thrown in D:\WorkSpace\Other\ebayis\bootstrap.php on line 107
+[03-Apr-2019 14:04:50 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Swagger\Client\Controller\favicon.ico' not found in D:\WorkSpace\Other\ebayis\bootstrap.php:107
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\index.php(5): require()
+#1 {main}
+  thrown in D:\WorkSpace\Other\ebayis\bootstrap.php on line 107
+[03-Apr-2019 14:05:37 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Swagger\Client\Controller\favicon.ico' not found in D:\WorkSpace\Other\ebayis\bootstrap.php:107
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\index.php(5): require()
+#1 {main}
+  thrown in D:\WorkSpace\Other\ebayis\bootstrap.php on line 107
+[03-Apr-2019 14:05:43 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Swagger\Client\Controller\favicon.ico' not found in D:\WorkSpace\Other\ebayis\bootstrap.php:107
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\index.php(5): require()
+#1 {main}
+  thrown in D:\WorkSpace\Other\ebayis\bootstrap.php on line 107
+[03-Apr-2019 14:11:21 Asia/Shanghai] PHP Notice:  Undefined index: page_number in D:\WorkSpace\Other\ebayis\lib\ObjectSerializer.php on line 303
+[03-Apr-2019 14:11:21 Asia/Shanghai] PHP Notice:  Undefined index: page_size in D:\WorkSpace\Other\ebayis\lib\ObjectSerializer.php on line 303
+[03-Apr-2019 14:11:21 Asia/Shanghai] PHP Notice:  Undefined index: page_number in D:\WorkSpace\Other\ebayis\lib\ObjectSerializer.php on line 303
+[03-Apr-2019 14:11:21 Asia/Shanghai] PHP Notice:  Undefined index: page_size in D:\WorkSpace\Other\ebayis\lib\ObjectSerializer.php on line 303
+[03-Apr-2019 14:11:21 Asia/Shanghai] PHP Notice:  Undefined index: page_number in D:\WorkSpace\Other\ebayis\lib\ObjectSerializer.php on line 303
+[03-Apr-2019 14:11:21 Asia/Shanghai] PHP Notice:  Undefined index: page_size in D:\WorkSpace\Other\ebayis\lib\ObjectSerializer.php on line 303
+[03-Apr-2019 14:11:21 Asia/Shanghai] PHP Notice:  Undefined index: page_number in D:\WorkSpace\Other\ebayis\lib\ObjectSerializer.php on line 303
+[03-Apr-2019 14:11:21 Asia/Shanghai] PHP Notice:  Undefined index: page_size in D:\WorkSpace\Other\ebayis\lib\ObjectSerializer.php on line 303
+[03-Apr-2019 14:11:21 Asia/Shanghai] PHP Notice:  Undefined index: page_number in D:\WorkSpace\Other\ebayis\lib\ObjectSerializer.php on line 303
+[03-Apr-2019 14:11:21 Asia/Shanghai] PHP Notice:  Undefined index: page_size in D:\WorkSpace\Other\ebayis\lib\ObjectSerializer.php on line 303
+[03-Apr-2019 14:11:21 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Swagger\Client\Controller\favicon.ico' not found in D:\WorkSpace\Other\ebayis\bootstrap.php:107
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\index.php(5): require()
+#1 {main}
+  thrown in D:\WorkSpace\Other\ebayis\bootstrap.php on line 107
+[03-Apr-2019 14:15:48 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Swagger\Client\Controller\favicon.ico' not found in D:\WorkSpace\Other\ebayis\bootstrap.php:107
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\index.php(5): require()
+#1 {main}
+  thrown in D:\WorkSpace\Other\ebayis\bootstrap.php on line 107
+[03-Apr-2019 14:15:51 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Swagger\Client\Controller\favicon.ico' not found in D:\WorkSpace\Other\ebayis\bootstrap.php:107
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\index.php(5): require()
+#1 {main}
+  thrown in D:\WorkSpace\Other\ebayis\bootstrap.php on line 107
+[03-Apr-2019 14:40:55 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Swagger\Client\Controller\favicon.ico' not found in D:\WorkSpace\Other\ebayis\bootstrap.php:107
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\index.php(5): require()
+#1 {main}
+  thrown in D:\WorkSpace\Other\ebayis\bootstrap.php on line 107
+[03-Apr-2019 14:40:57 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Swagger\Client\Controller\favicon.ico' not found in D:\WorkSpace\Other\ebayis\bootstrap.php:107
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\index.php(5): require()
+#1 {main}
+  thrown in D:\WorkSpace\Other\ebayis\bootstrap.php on line 107
+[03-Apr-2019 14:41:12 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Swagger\Client\Controller\favicon.ico' not found in D:\WorkSpace\Other\ebayis\bootstrap.php:107
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\index.php(5): require()
+#1 {main}
+  thrown in D:\WorkSpace\Other\ebayis\bootstrap.php on line 107
+[03-Apr-2019 14:41:31 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Swagger\Client\Controller\favicon.ico' not found in D:\WorkSpace\Other\ebayis\bootstrap.php:107
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\index.php(5): require()
+#1 {main}
+  thrown in D:\WorkSpace\Other\ebayis\bootstrap.php on line 107
+[03-Apr-2019 14:41:44 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Swagger\Client\Controller\favicon.ico' not found in D:\WorkSpace\Other\ebayis\bootstrap.php:107
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\index.php(5): require()
+#1 {main}
+  thrown in D:\WorkSpace\Other\ebayis\bootstrap.php on line 107
+[03-Apr-2019 15:10:37 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Swagger\Client\Controller\favicon.ico' not found in D:\WorkSpace\Other\ebayis\bootstrap.php:107
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\index.php(5): require()
+#1 {main}
+  thrown in D:\WorkSpace\Other\ebayis\bootstrap.php on line 107
+[03-Apr-2019 15:12:21 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Swagger\Client\Controller\favicon.ico' not found in D:\WorkSpace\Other\ebayis\bootstrap.php:107
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\index.php(5): require()
+#1 {main}
+  thrown in D:\WorkSpace\Other\ebayis\bootstrap.php on line 107
+[03-Apr-2019 15:12:24 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Swagger\Client\Controller\favicon.ico' not found in D:\WorkSpace\Other\ebayis\bootstrap.php:107
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\index.php(5): require()
+#1 {main}
+  thrown in D:\WorkSpace\Other\ebayis\bootstrap.php on line 107
+[03-Apr-2019 15:18:09 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Swagger\Client\Controller\favicon.ico' not found in D:\WorkSpace\Other\ebayis\bootstrap.php:107
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\index.php(5): require()
+#1 {main}
+  thrown in D:\WorkSpace\Other\ebayis\bootstrap.php on line 107
+[03-Apr-2019 15:19:26 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Swagger\Client\Controller\favicon.ico' not found in D:\WorkSpace\Other\ebayis\bootstrap.php:107
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\index.php(5): require()
+#1 {main}
+  thrown in D:\WorkSpace\Other\ebayis\bootstrap.php on line 107
+[03-Apr-2019 15:24:15 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Swagger\Client\Controller\favicon.ico' not found in D:\WorkSpace\Other\ebayis\bootstrap.php:107
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\index.php(5): require()
+#1 {main}
+  thrown in D:\WorkSpace\Other\ebayis\bootstrap.php on line 107
+[03-Apr-2019 15:24:39 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Swagger\Client\Controller\favicon.ico' not found in D:\WorkSpace\Other\ebayis\bootstrap.php:107
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\index.php(5): require()
+#1 {main}
+  thrown in D:\WorkSpace\Other\ebayis\bootstrap.php on line 107
+[03-Apr-2019 15:25:29 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Swagger\Client\Controller\favicon.ico' not found in D:\WorkSpace\Other\ebayis\bootstrap.php:107
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\index.php(5): require()
+#1 {main}
+  thrown in D:\WorkSpace\Other\ebayis\bootstrap.php on line 107
+[03-Apr-2019 15:26:08 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Swagger\Client\Controller\favicon.ico' not found in D:\WorkSpace\Other\ebayis\bootstrap.php:107
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\index.php(5): require()
+#1 {main}
+  thrown in D:\WorkSpace\Other\ebayis\bootstrap.php on line 107
+[03-Apr-2019 15:33:41 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Cannot use object of type GuzzleHttp\Promise\Promise as array in D:\WorkSpace\Other\ebayis\lib\Api\DefaultEbayClient.php:5115
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\lib\Api\DefaultEbayClient.php(101): Swagger\Client\Api\DefaultEbayClient->getSkuBatteryList(Object(Swagger\Client\Model\GetSkuBatteryListRequest))
+#1 D:\WorkSpace\Other\ebayis\lib\Controller\GetSkuBatteryList.php(35): Swagger\Client\Api\DefaultEbayClient->execute(Object(Swagger\Client\Model\GetSkuBatteryListRequest))
+#2 D:\WorkSpace\Other\ebayis\bootstrap.php(108): Swagger\Client\Controller\GetSkuBatteryList->index()
+#3 D:\WorkSpace\Other\ebayis\index.php(5): require('D:\\WorkSpace\\Ot...')
+#4 {main}
+  thrown in D:\WorkSpace\Other\ebayis\lib\Api\DefaultEbayClient.php on line 5115
+[03-Apr-2019 15:33:41 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Swagger\Client\Controller\favicon.ico' not found in D:\WorkSpace\Other\ebayis\bootstrap.php:107
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\index.php(5): require()
+#1 {main}
+  thrown in D:\WorkSpace\Other\ebayis\bootstrap.php on line 107
+[03-Apr-2019 15:34:51 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Swagger\Client\Controller\favicon.ico' not found in D:\WorkSpace\Other\ebayis\bootstrap.php:107
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\index.php(5): require()
+#1 {main}
+  thrown in D:\WorkSpace\Other\ebayis\bootstrap.php on line 107
+[03-Apr-2019 16:58:28 Asia/Shanghai] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Swagger\Client\Api\DefaultEbayClient::getSkuBatteryList(), 1 passed in D:\WorkSpace\Other\ebayis\lib\Api\DefaultEbayClient.php on line 101 and exactly 2 expected in D:\WorkSpace\Other\ebayis\lib\Api\DefaultEbayClient.php:5114
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\lib\Api\DefaultEbayClient.php(101): Swagger\Client\Api\DefaultEbayClient->getSkuBatteryList(Object(Swagger\Client\Model\GetSkuBatteryListRequest))
+#1 D:\WorkSpace\Other\ebayis\lib\Controller\GetSkuBatteryList.php(35): Swagger\Client\Api\DefaultEbayClient->execute(Object(Swagger\Client\Model\GetSkuBatteryListRequest))
+#2 D:\WorkSpace\Other\ebayis\bootstrap.php(108): Swagger\Client\Controller\GetSkuBatteryList->index()
+#3 D:\WorkSpace\Other\ebayis\index.php(5): require('D:\\WorkSpace\\Ot...')
+#4 {main}
+  thrown in D:\WorkSpace\Other\ebayis\lib\Api\DefaultEbayClient.php on line 5114
+[03-Apr-2019 16:58:28 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Swagger\Client\Controller\favicon.ico' not found in D:\WorkSpace\Other\ebayis\bootstrap.php:107
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\index.php(5): require()
+#1 {main}
+  thrown in D:\WorkSpace\Other\ebayis\bootstrap.php on line 107
+[03-Apr-2019 16:58:43 Asia/Shanghai] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Swagger\Client\Api\DefaultEbayClient::getSkuBatteryList(), 1 passed in D:\WorkSpace\Other\ebayis\lib\Api\DefaultEbayClient.php on line 101 and exactly 2 expected in D:\WorkSpace\Other\ebayis\lib\Api\DefaultEbayClient.php:5114
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\lib\Api\DefaultEbayClient.php(101): Swagger\Client\Api\DefaultEbayClient->getSkuBatteryList(Object(Swagger\Client\Model\GetSkuBatteryListRequest))
+#1 D:\WorkSpace\Other\ebayis\lib\Controller\GetSkuBatteryList.php(35): Swagger\Client\Api\DefaultEbayClient->execute(Object(Swagger\Client\Model\GetSkuBatteryListRequest))
+#2 D:\WorkSpace\Other\ebayis\bootstrap.php(108): Swagger\Client\Controller\GetSkuBatteryList->index()
+#3 D:\WorkSpace\Other\ebayis\index.php(5): require('D:\\WorkSpace\\Ot...')
+#4 {main}
+  thrown in D:\WorkSpace\Other\ebayis\lib\Api\DefaultEbayClient.php on line 5114
+[03-Apr-2019 16:58:43 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Swagger\Client\Controller\favicon.ico' not found in D:\WorkSpace\Other\ebayis\bootstrap.php:107
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\index.php(5): require()
+#1 {main}
+  thrown in D:\WorkSpace\Other\ebayis\bootstrap.php on line 107
+[03-Apr-2019 17:00:52 Asia/Shanghai] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Swagger\Client\Api\DefaultEbayClient::getSkuBatteryList(), 1 passed in D:\WorkSpace\Other\ebayis\lib\Api\DefaultEbayClient.php on line 101 and exactly 2 expected in D:\WorkSpace\Other\ebayis\lib\Api\DefaultEbayClient.php:5114
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\lib\Api\DefaultEbayClient.php(101): Swagger\Client\Api\DefaultEbayClient->getSkuBatteryList(Object(Swagger\Client\Model\GetSkuBatteryListRequest))
+#1 D:\WorkSpace\Other\ebayis\lib\Controller\GetSkuBatteryList.php(35): Swagger\Client\Api\DefaultEbayClient->execute(Object(Swagger\Client\Model\GetSkuBatteryListRequest))
+#2 D:\WorkSpace\Other\ebayis\bootstrap.php(108): Swagger\Client\Controller\GetSkuBatteryList->index()
+#3 D:\WorkSpace\Other\ebayis\index.php(5): require('D:\\WorkSpace\\Ot...')
+#4 {main}
+  thrown in D:\WorkSpace\Other\ebayis\lib\Api\DefaultEbayClient.php on line 5114
+[03-Apr-2019 17:00:52 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Swagger\Client\Controller\favicon.ico' not found in D:\WorkSpace\Other\ebayis\bootstrap.php:107
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\index.php(5): require()
+#1 {main}
+  thrown in D:\WorkSpace\Other\ebayis\bootstrap.php on line 107
+[03-Apr-2019 17:00:53 Asia/Shanghai] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Swagger\Client\Api\DefaultEbayClient::getSkuBatteryList(), 1 passed in D:\WorkSpace\Other\ebayis\lib\Api\DefaultEbayClient.php on line 101 and exactly 2 expected in D:\WorkSpace\Other\ebayis\lib\Api\DefaultEbayClient.php:5114
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\lib\Api\DefaultEbayClient.php(101): Swagger\Client\Api\DefaultEbayClient->getSkuBatteryList(Object(Swagger\Client\Model\GetSkuBatteryListRequest))
+#1 D:\WorkSpace\Other\ebayis\lib\Controller\GetSkuBatteryList.php(35): Swagger\Client\Api\DefaultEbayClient->execute(Object(Swagger\Client\Model\GetSkuBatteryListRequest))
+#2 D:\WorkSpace\Other\ebayis\bootstrap.php(108): Swagger\Client\Controller\GetSkuBatteryList->index()
+#3 D:\WorkSpace\Other\ebayis\index.php(5): require('D:\\WorkSpace\\Ot...')
+#4 {main}
+  thrown in D:\WorkSpace\Other\ebayis\lib\Api\DefaultEbayClient.php on line 5114
+[03-Apr-2019 17:00:53 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Swagger\Client\Controller\favicon.ico' not found in D:\WorkSpace\Other\ebayis\bootstrap.php:107
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\index.php(5): require()
+#1 {main}
+  thrown in D:\WorkSpace\Other\ebayis\bootstrap.php on line 107
+[03-Apr-2019 17:00:53 Asia/Shanghai] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Swagger\Client\Api\DefaultEbayClient::getSkuBatteryList(), 1 passed in D:\WorkSpace\Other\ebayis\lib\Api\DefaultEbayClient.php on line 101 and exactly 2 expected in D:\WorkSpace\Other\ebayis\lib\Api\DefaultEbayClient.php:5114
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\lib\Api\DefaultEbayClient.php(101): Swagger\Client\Api\DefaultEbayClient->getSkuBatteryList(Object(Swagger\Client\Model\GetSkuBatteryListRequest))
+#1 D:\WorkSpace\Other\ebayis\lib\Controller\GetSkuBatteryList.php(35): Swagger\Client\Api\DefaultEbayClient->execute(Object(Swagger\Client\Model\GetSkuBatteryListRequest))
+#2 D:\WorkSpace\Other\ebayis\bootstrap.php(108): Swagger\Client\Controller\GetSkuBatteryList->index()
+#3 D:\WorkSpace\Other\ebayis\index.php(5): require('D:\\WorkSpace\\Ot...')
+#4 {main}
+  thrown in D:\WorkSpace\Other\ebayis\lib\Api\DefaultEbayClient.php on line 5114
+[03-Apr-2019 17:00:53 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Swagger\Client\Controller\favicon.ico' not found in D:\WorkSpace\Other\ebayis\bootstrap.php:107
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\index.php(5): require()
+#1 {main}
+  thrown in D:\WorkSpace\Other\ebayis\bootstrap.php on line 107
+[03-Apr-2019 17:00:54 Asia/Shanghai] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Swagger\Client\Api\DefaultEbayClient::getSkuBatteryList(), 1 passed in D:\WorkSpace\Other\ebayis\lib\Api\DefaultEbayClient.php on line 101 and exactly 2 expected in D:\WorkSpace\Other\ebayis\lib\Api\DefaultEbayClient.php:5114
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\lib\Api\DefaultEbayClient.php(101): Swagger\Client\Api\DefaultEbayClient->getSkuBatteryList(Object(Swagger\Client\Model\GetSkuBatteryListRequest))
+#1 D:\WorkSpace\Other\ebayis\lib\Controller\GetSkuBatteryList.php(35): Swagger\Client\Api\DefaultEbayClient->execute(Object(Swagger\Client\Model\GetSkuBatteryListRequest))
+#2 D:\WorkSpace\Other\ebayis\bootstrap.php(108): Swagger\Client\Controller\GetSkuBatteryList->index()
+#3 D:\WorkSpace\Other\ebayis\index.php(5): require('D:\\WorkSpace\\Ot...')
+#4 {main}
+  thrown in D:\WorkSpace\Other\ebayis\lib\Api\DefaultEbayClient.php on line 5114
+[03-Apr-2019 17:00:54 Asia/Shanghai] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Swagger\Client\Api\DefaultEbayClient::getSkuBatteryList(), 1 passed in D:\WorkSpace\Other\ebayis\lib\Api\DefaultEbayClient.php on line 101 and exactly 2 expected in D:\WorkSpace\Other\ebayis\lib\Api\DefaultEbayClient.php:5114
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\lib\Api\DefaultEbayClient.php(101): Swagger\Client\Api\DefaultEbayClient->getSkuBatteryList(Object(Swagger\Client\Model\GetSkuBatteryListRequest))
+#1 D:\WorkSpace\Other\ebayis\lib\Controller\GetSkuBatteryList.php(35): Swagger\Client\Api\DefaultEbayClient->execute(Object(Swagger\Client\Model\GetSkuBatteryListRequest))
+#2 D:\WorkSpace\Other\ebayis\bootstrap.php(108): Swagger\Client\Controller\GetSkuBatteryList->index()
+#3 D:\WorkSpace\Other\ebayis\index.php(5): require('D:\\WorkSpace\\Ot...')
+#4 {main}
+  thrown in D:\WorkSpace\Other\ebayis\lib\Api\DefaultEbayClient.php on line 5114
+[03-Apr-2019 17:00:54 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Swagger\Client\Controller\favicon.ico' not found in D:\WorkSpace\Other\ebayis\bootstrap.php:107
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\index.php(5): require()
+#1 {main}
+  thrown in D:\WorkSpace\Other\ebayis\bootstrap.php on line 107
+[03-Apr-2019 17:00:54 Asia/Shanghai] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Swagger\Client\Api\DefaultEbayClient::getSkuBatteryList(), 1 passed in D:\WorkSpace\Other\ebayis\lib\Api\DefaultEbayClient.php on line 101 and exactly 2 expected in D:\WorkSpace\Other\ebayis\lib\Api\DefaultEbayClient.php:5114
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\lib\Api\DefaultEbayClient.php(101): Swagger\Client\Api\DefaultEbayClient->getSkuBatteryList(Object(Swagger\Client\Model\GetSkuBatteryListRequest))
+#1 D:\WorkSpace\Other\ebayis\lib\Controller\GetSkuBatteryList.php(35): Swagger\Client\Api\DefaultEbayClient->execute(Object(Swagger\Client\Model\GetSkuBatteryListRequest))
+#2 D:\WorkSpace\Other\ebayis\bootstrap.php(108): Swagger\Client\Controller\GetSkuBatteryList->index()
+#3 D:\WorkSpace\Other\ebayis\index.php(5): require('D:\\WorkSpace\\Ot...')
+#4 {main}
+  thrown in D:\WorkSpace\Other\ebayis\lib\Api\DefaultEbayClient.php on line 5114
+[03-Apr-2019 17:00:54 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Swagger\Client\Controller\favicon.ico' not found in D:\WorkSpace\Other\ebayis\bootstrap.php:107
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\index.php(5): require()
+#1 {main}
+  thrown in D:\WorkSpace\Other\ebayis\bootstrap.php on line 107
+[03-Apr-2019 17:00:54 Asia/Shanghai] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Swagger\Client\Api\DefaultEbayClient::getSkuBatteryList(), 1 passed in D:\WorkSpace\Other\ebayis\lib\Api\DefaultEbayClient.php on line 101 and exactly 2 expected in D:\WorkSpace\Other\ebayis\lib\Api\DefaultEbayClient.php:5114
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\lib\Api\DefaultEbayClient.php(101): Swagger\Client\Api\DefaultEbayClient->getSkuBatteryList(Object(Swagger\Client\Model\GetSkuBatteryListRequest))
+#1 D:\WorkSpace\Other\ebayis\lib\Controller\GetSkuBatteryList.php(35): Swagger\Client\Api\DefaultEbayClient->execute(Object(Swagger\Client\Model\GetSkuBatteryListRequest))
+#2 D:\WorkSpace\Other\ebayis\bootstrap.php(108): Swagger\Client\Controller\GetSkuBatteryList->index()
+#3 D:\WorkSpace\Other\ebayis\index.php(5): require('D:\\WorkSpace\\Ot...')
+#4 {main}
+  thrown in D:\WorkSpace\Other\ebayis\lib\Api\DefaultEbayClient.php on line 5114
+[03-Apr-2019 17:00:54 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Swagger\Client\Controller\favicon.ico' not found in D:\WorkSpace\Other\ebayis\bootstrap.php:107
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\index.php(5): require()
+#1 {main}
+  thrown in D:\WorkSpace\Other\ebayis\bootstrap.php on line 107
+[03-Apr-2019 17:02:03 Asia/Shanghai] PHP Fatal error:  Cannot declare class Swagger\Client\Api\OpenApiApi, because the name is already in use in D:\WorkSpace\Other\ebayis\lib\Api\DefaultEbayClient.php on line 50
+[03-Apr-2019 17:02:03 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Swagger\Client\Controller\favicon.ico' not found in D:\WorkSpace\Other\ebayis\bootstrap.php:107
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\index.php(5): require()
+#1 {main}
+  thrown in D:\WorkSpace\Other\ebayis\bootstrap.php on line 107
+[03-Apr-2019 17:02:32 Asia/Shanghai] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Swagger\Client\Api\DefaultEbayClient::__construct() must be an instance of GuzzleHttp\ClientInterface or null, string given, called in D:\WorkSpace\Other\ebayis\lib\Controller\GetSkuBatteryList.php on line 25 and defined in D:\WorkSpace\Other\ebayis\lib\Api\DefaultEbayClient.php:72
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\lib\Controller\GetSkuBatteryList.php(25): Swagger\Client\Api\DefaultEbayClient->__construct('https://istslb0...', 'TGT-1-VdDjcYoS2...')
+#1 D:\WorkSpace\Other\ebayis\bootstrap.php(108): Swagger\Client\Controller\GetSkuBatteryList->index()
+#2 D:\WorkSpace\Other\ebayis\index.php(5): require('D:\\WorkSpace\\Ot...')
+#3 {main}
+  thrown in D:\WorkSpace\Other\ebayis\lib\Api\DefaultEbayClient.php on line 72
+[03-Apr-2019 17:02:32 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Swagger\Client\Controller\favicon.ico' not found in D:\WorkSpace\Other\ebayis\bootstrap.php:107
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\index.php(5): require()
+#1 {main}
+  thrown in D:\WorkSpace\Other\ebayis\bootstrap.php on line 107
+[03-Apr-2019 17:03:18 Asia/Shanghai] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Swagger\Client\Api\DefaultEbayClient::__construct() must be an instance of GuzzleHttp\ClientInterface or null, string given, called in D:\WorkSpace\Other\ebayis\lib\Controller\GetSkuBatteryList.php on line 25 and defined in D:\WorkSpace\Other\ebayis\lib\Api\DefaultEbayClient.php:72
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\lib\Controller\GetSkuBatteryList.php(25): Swagger\Client\Api\DefaultEbayClient->__construct('https://istslb0...', 'TGT-1-VdDjcYoS2...')
+#1 D:\WorkSpace\Other\ebayis\bootstrap.php(108): Swagger\Client\Controller\GetSkuBatteryList->index()
+#2 D:\WorkSpace\Other\ebayis\index.php(5): require('D:\\WorkSpace\\Ot...')
+#3 {main}
+  thrown in D:\WorkSpace\Other\ebayis\lib\Api\DefaultEbayClient.php on line 72
+[03-Apr-2019 17:03:18 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Swagger\Client\Controller\favicon.ico' not found in D:\WorkSpace\Other\ebayis\bootstrap.php:107
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\index.php(5): require()
+#1 {main}
+  thrown in D:\WorkSpace\Other\ebayis\bootstrap.php on line 107
+[03-Apr-2019 17:03:19 Asia/Shanghai] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Swagger\Client\Api\DefaultEbayClient::__construct() must be an instance of GuzzleHttp\ClientInterface or null, string given, called in D:\WorkSpace\Other\ebayis\lib\Controller\GetSkuBatteryList.php on line 25 and defined in D:\WorkSpace\Other\ebayis\lib\Api\DefaultEbayClient.php:72
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\lib\Controller\GetSkuBatteryList.php(25): Swagger\Client\Api\DefaultEbayClient->__construct('https://istslb0...', 'TGT-1-VdDjcYoS2...')
+#1 D:\WorkSpace\Other\ebayis\bootstrap.php(108): Swagger\Client\Controller\GetSkuBatteryList->index()
+#2 D:\WorkSpace\Other\ebayis\index.php(5): require('D:\\WorkSpace\\Ot...')
+#3 {main}
+  thrown in D:\WorkSpace\Other\ebayis\lib\Api\DefaultEbayClient.php on line 72
+[03-Apr-2019 17:03:19 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Swagger\Client\Controller\favicon.ico' not found in D:\WorkSpace\Other\ebayis\bootstrap.php:107
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\index.php(5): require()
+#1 {main}
+  thrown in D:\WorkSpace\Other\ebayis\bootstrap.php on line 107
+[03-Apr-2019 17:03:19 Asia/Shanghai] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Swagger\Client\Api\DefaultEbayClient::__construct() must be an instance of GuzzleHttp\ClientInterface or null, string given, called in D:\WorkSpace\Other\ebayis\lib\Controller\GetSkuBatteryList.php on line 25 and defined in D:\WorkSpace\Other\ebayis\lib\Api\DefaultEbayClient.php:72
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\lib\Controller\GetSkuBatteryList.php(25): Swagger\Client\Api\DefaultEbayClient->__construct('https://istslb0...', 'TGT-1-VdDjcYoS2...')
+#1 D:\WorkSpace\Other\ebayis\bootstrap.php(108): Swagger\Client\Controller\GetSkuBatteryList->index()
+#2 D:\WorkSpace\Other\ebayis\index.php(5): require('D:\\WorkSpace\\Ot...')
+#3 {main}
+  thrown in D:\WorkSpace\Other\ebayis\lib\Api\DefaultEbayClient.php on line 72
+[03-Apr-2019 17:03:20 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Swagger\Client\Controller\favicon.ico' not found in D:\WorkSpace\Other\ebayis\bootstrap.php:107
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\index.php(5): require()
+#1 {main}
+  thrown in D:\WorkSpace\Other\ebayis\bootstrap.php on line 107
+[03-Apr-2019 17:03:20 Asia/Shanghai] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Swagger\Client\Api\DefaultEbayClient::__construct() must be an instance of GuzzleHttp\ClientInterface or null, string given, called in D:\WorkSpace\Other\ebayis\lib\Controller\GetSkuBatteryList.php on line 25 and defined in D:\WorkSpace\Other\ebayis\lib\Api\DefaultEbayClient.php:72
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\lib\Controller\GetSkuBatteryList.php(25): Swagger\Client\Api\DefaultEbayClient->__construct('https://istslb0...', 'TGT-1-VdDjcYoS2...')
+#1 D:\WorkSpace\Other\ebayis\bootstrap.php(108): Swagger\Client\Controller\GetSkuBatteryList->index()
+#2 D:\WorkSpace\Other\ebayis\index.php(5): require('D:\\WorkSpace\\Ot...')
+#3 {main}
+  thrown in D:\WorkSpace\Other\ebayis\lib\Api\DefaultEbayClient.php on line 72
+[03-Apr-2019 17:03:20 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Swagger\Client\Controller\favicon.ico' not found in D:\WorkSpace\Other\ebayis\bootstrap.php:107
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\index.php(5): require()
+#1 {main}
+  thrown in D:\WorkSpace\Other\ebayis\bootstrap.php on line 107
+[03-Apr-2019 17:03:29 Asia/Shanghai] PHP Fatal error:  Cannot declare class Swagger\Client\Api\OpenApiApi, because the name is already in use in D:\WorkSpace\Other\ebayis\lib\Api\DefaultEbayClient.php on line 50
+[03-Apr-2019 17:03:29 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Swagger\Client\Controller\favicon.ico' not found in D:\WorkSpace\Other\ebayis\bootstrap.php:107
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\index.php(5): require()
+#1 {main}
+  thrown in D:\WorkSpace\Other\ebayis\bootstrap.php on line 107
+[03-Apr-2019 17:03:30 Asia/Shanghai] PHP Fatal error:  Cannot declare class Swagger\Client\Api\OpenApiApi, because the name is already in use in D:\WorkSpace\Other\ebayis\lib\Api\DefaultEbayClient.php on line 50
+[03-Apr-2019 17:03:30 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Swagger\Client\Controller\favicon.ico' not found in D:\WorkSpace\Other\ebayis\bootstrap.php:107
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\index.php(5): require()
+#1 {main}
+  thrown in D:\WorkSpace\Other\ebayis\bootstrap.php on line 107
+[03-Apr-2019 17:03:34 Asia/Shanghai] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Swagger\Client\Api\DefaultEbayClient::getSkuBatteryList(), 1 passed in D:\WorkSpace\Other\ebayis\lib\Api\DefaultEbayClient.php on line 101 and exactly 2 expected in D:\WorkSpace\Other\ebayis\lib\Api\DefaultEbayClient.php:5114
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\lib\Api\DefaultEbayClient.php(101): Swagger\Client\Api\DefaultEbayClient->getSkuBatteryList(Object(Swagger\Client\Model\GetSkuBatteryListRequest))
+#1 D:\WorkSpace\Other\ebayis\lib\Controller\GetSkuBatteryList.php(35): Swagger\Client\Api\DefaultEbayClient->execute(Object(Swagger\Client\Model\GetSkuBatteryListRequest))
+#2 D:\WorkSpace\Other\ebayis\bootstrap.php(108): Swagger\Client\Controller\GetSkuBatteryList->index()
+#3 D:\WorkSpace\Other\ebayis\index.php(5): require('D:\\WorkSpace\\Ot...')
+#4 {main}
+  thrown in D:\WorkSpace\Other\ebayis\lib\Api\DefaultEbayClient.php on line 5114
+[03-Apr-2019 17:03:35 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Swagger\Client\Controller\favicon.ico' not found in D:\WorkSpace\Other\ebayis\bootstrap.php:107
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\index.php(5): require()
+#1 {main}
+  thrown in D:\WorkSpace\Other\ebayis\bootstrap.php on line 107
+[03-Apr-2019 17:04:17 Asia/Shanghai] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Swagger\Client\Api\DefaultEbayClient::getSkuBatteryList(), 1 passed in D:\WorkSpace\Other\ebayis\lib\Api\DefaultEbayClient.php on line 101 and exactly 2 expected in D:\WorkSpace\Other\ebayis\lib\Api\DefaultEbayClient.php:5114
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\lib\Api\DefaultEbayClient.php(101): Swagger\Client\Api\DefaultEbayClient->getSkuBatteryList(Object(Swagger\Client\Model\GetSkuBatteryListRequest))
+#1 D:\WorkSpace\Other\ebayis\lib\Controller\GetSkuBatteryList.php(35): Swagger\Client\Api\DefaultEbayClient->execute(Object(Swagger\Client\Model\GetSkuBatteryListRequest))
+#2 D:\WorkSpace\Other\ebayis\bootstrap.php(108): Swagger\Client\Controller\GetSkuBatteryList->index()
+#3 D:\WorkSpace\Other\ebayis\index.php(5): require('D:\\WorkSpace\\Ot...')
+#4 {main}
+  thrown in D:\WorkSpace\Other\ebayis\lib\Api\DefaultEbayClient.php on line 5114
+[03-Apr-2019 17:04:18 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Swagger\Client\Controller\favicon.ico' not found in D:\WorkSpace\Other\ebayis\bootstrap.php:107
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\index.php(5): require()
+#1 {main}
+  thrown in D:\WorkSpace\Other\ebayis\bootstrap.php on line 107
+[03-Apr-2019 17:05:22 Asia/Shanghai] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Swagger\Client\Api\DefaultEbayClient::getSkuBatteryListWithHttpInfo(), 1 passed in D:\WorkSpace\Other\ebayis\lib\Api\DefaultEbayClient.php on line 5115 and exactly 2 expected in D:\WorkSpace\Other\ebayis\lib\Api\DefaultEbayClient.php:5131
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\lib\Api\DefaultEbayClient.php(5115): Swagger\Client\Api\DefaultEbayClient->getSkuBatteryListWithHttpInfo(Object(Swagger\Client\Model\GetSkuBatteryListRequest))
+#1 D:\WorkSpace\Other\ebayis\lib\Api\DefaultEbayClient.php(101): Swagger\Client\Api\DefaultEbayClient->getSkuBatteryList(Object(Swagger\Client\Model\GetSkuBatteryListRequest))
+#2 D:\WorkSpace\Other\ebayis\lib\Controller\GetSkuBatteryList.php(35): Swagger\Client\Api\DefaultEbayClient->execute(Object(Swagger\Client\Model\GetSkuBatteryListRequest))
+#3 D:\WorkSpace\Other\ebayis\bootstrap.php(108): Swagger\Client\Controller\GetSkuBatteryList->index()
+#4 D:\WorkSpace\Other\ebayis\index.php(5): require('D:\\WorkSpace\\Ot...') in D:\WorkSpace\Other\ebayis\lib\Api\DefaultEbayClient.php on line 5131
+[03-Apr-2019 17:05:22 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Swagger\Client\Controller\favicon.ico' not found in D:\WorkSpace\Other\ebayis\bootstrap.php:107
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\index.php(5): require()
+#1 {main}
+  thrown in D:\WorkSpace\Other\ebayis\bootstrap.php on line 107
+[03-Apr-2019 17:05:48 Asia/Shanghai] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Swagger\Client\Api\DefaultEbayClient::getSkuBatteryListRequest(), 1 passed in D:\WorkSpace\Other\ebayis\lib\Api\DefaultEbayClient.php on line 5133 and exactly 2 expected in D:\WorkSpace\Other\ebayis\lib\Api\DefaultEbayClient.php:5285
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\lib\Api\DefaultEbayClient.php(5133): Swagger\Client\Api\DefaultEbayClient->getSkuBatteryListRequest(Object(Swagger\Client\Model\GetSkuBatteryListRequest))
+#1 D:\WorkSpace\Other\ebayis\lib\Api\DefaultEbayClient.php(5115): Swagger\Client\Api\DefaultEbayClient->getSkuBatteryListWithHttpInfo(Object(Swagger\Client\Model\GetSkuBatteryListRequest))
+#2 D:\WorkSpace\Other\ebayis\lib\Api\DefaultEbayClient.php(101): Swagger\Client\Api\DefaultEbayClient->getSkuBatteryList(Object(Swagger\Client\Model\GetSkuBatteryListRequest))
+#3 D:\WorkSpace\Other\ebayis\lib\Controller\GetSkuBatteryList.php(35): Swagger\Client\Api\DefaultEbayClient->execute(Object(Swagger\Client\Model\GetSkuBatteryListRequest in D:\WorkSpace\Other\ebayis\lib\Api\DefaultEbayClient.php on line 5285
+[03-Apr-2019 17:05:48 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Swagger\Client\Controller\favicon.ico' not found in D:\WorkSpace\Other\ebayis\bootstrap.php:107
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\index.php(5): require()
+#1 {main}
+  thrown in D:\WorkSpace\Other\ebayis\bootstrap.php on line 107
+[03-Apr-2019 17:06:13 Asia/Shanghai] PHP Notice:  Undefined variable: authorization in D:\WorkSpace\Other\ebayis\lib\Api\DefaultEbayClient.php on line 5302
+[03-Apr-2019 17:06:13 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Swagger\Client\Controller\favicon.ico' not found in D:\WorkSpace\Other\ebayis\bootstrap.php:107
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\index.php(5): require()
+#1 {main}
+  thrown in D:\WorkSpace\Other\ebayis\bootstrap.php on line 107
+[03-Apr-2019 17:06:43 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Swagger\Client\Controller\favicon.ico' not found in D:\WorkSpace\Other\ebayis\bootstrap.php:107
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\index.php(5): require()
+#1 {main}
+  thrown in D:\WorkSpace\Other\ebayis\bootstrap.php on line 107
+[03-Apr-2019 17:07:28 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Swagger\Client\Controller\favicon.ico' not found in D:\WorkSpace\Other\ebayis\bootstrap.php:107
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\index.php(5): require()
+#1 {main}
+  thrown in D:\WorkSpace\Other\ebayis\bootstrap.php on line 107
+[04-Apr-2019 06:52:31 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Swagger\Client\Controller\favicon.ico' not found in D:\WorkSpace\Other\ebayis\bootstrap.php:107
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\index.php(5): require()
+#1 {main}
+  thrown in D:\WorkSpace\Other\ebayis\bootstrap.php on line 107
+[04-Apr-2019 06:52:55 Asia/Shanghai] PHP Fatal error:  Uncaught InvalidArgumentException: json_decode error: Syntax error in D:\WorkSpace\Other\ebayis\vendor\guzzlehttp\guzzle\src\functions.php:304
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\lib\Controller\GetSkuBatteryList.php(40): GuzzleHttp\json_decode(NULL, true)
+#1 D:\WorkSpace\Other\ebayis\bootstrap.php(108): Swagger\Client\Controller\GetSkuBatteryList->index()
+#2 D:\WorkSpace\Other\ebayis\index.php(5): require('D:\\WorkSpace\\Ot...')
+#3 {main}
+  thrown in D:\WorkSpace\Other\ebayis\vendor\guzzlehttp\guzzle\src\functions.php on line 304
+[04-Apr-2019 06:52:57 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Swagger\Client\Controller\favicon.ico' not found in D:\WorkSpace\Other\ebayis\bootstrap.php:107
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\index.php(5): require()
+#1 {main}
+  thrown in D:\WorkSpace\Other\ebayis\bootstrap.php on line 107
+[04-Apr-2019 06:55:40 Asia/Shanghai] PHP Fatal error:  Uncaught InvalidArgumentException: json_decode error: Syntax error in D:\WorkSpace\Other\ebayis\vendor\guzzlehttp\guzzle\src\functions.php:304
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\lib\Controller\GetSkuBatteryList.php(40): GuzzleHttp\json_decode(NULL, true)
+#1 D:\WorkSpace\Other\ebayis\bootstrap.php(108): Swagger\Client\Controller\GetSkuBatteryList->index()
+#2 D:\WorkSpace\Other\ebayis\index.php(5): require('D:\\WorkSpace\\Ot...')
+#3 {main}
+  thrown in D:\WorkSpace\Other\ebayis\vendor\guzzlehttp\guzzle\src\functions.php on line 304
+[04-Apr-2019 06:55:41 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Swagger\Client\Controller\favicon.ico' not found in D:\WorkSpace\Other\ebayis\bootstrap.php:107
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\index.php(5): require()
+#1 {main}
+  thrown in D:\WorkSpace\Other\ebayis\bootstrap.php on line 107
+[04-Apr-2019 06:57:21 Asia/Shanghai] PHP Fatal error:  Uncaught InvalidArgumentException: json_decode error: Syntax error in D:\WorkSpace\Other\ebayis\vendor\guzzlehttp\guzzle\src\functions.php:304
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\lib\Controller\GetSkuBatteryList.php(40): GuzzleHttp\json_decode(NULL, true)
+#1 D:\WorkSpace\Other\ebayis\bootstrap.php(108): Swagger\Client\Controller\GetSkuBatteryList->index()
+#2 D:\WorkSpace\Other\ebayis\index.php(5): require('D:\\WorkSpace\\Ot...')
+#3 {main}
+  thrown in D:\WorkSpace\Other\ebayis\vendor\guzzlehttp\guzzle\src\functions.php on line 304
+[04-Apr-2019 06:57:42 Asia/Shanghai] PHP Fatal error:  Uncaught InvalidArgumentException: json_decode error: Syntax error in D:\WorkSpace\Other\ebayis\vendor\guzzlehttp\guzzle\src\functions.php:304
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\lib\Controller\GetSkuBatteryList.php(40): GuzzleHttp\json_decode(NULL, true)
+#1 D:\WorkSpace\Other\ebayis\bootstrap.php(108): Swagger\Client\Controller\GetSkuBatteryList->index()
+#2 D:\WorkSpace\Other\ebayis\index.php(5): require('D:\\WorkSpace\\Ot...')
+#3 {main}
+  thrown in D:\WorkSpace\Other\ebayis\vendor\guzzlehttp\guzzle\src\functions.php on line 304
+[04-Apr-2019 06:57:43 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Swagger\Client\Controller\favicon.ico' not found in D:\WorkSpace\Other\ebayis\bootstrap.php:107
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\index.php(5): require()
+#1 {main}
+  thrown in D:\WorkSpace\Other\ebayis\bootstrap.php on line 107
+[04-Apr-2019 06:58:36 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Swagger\Client\Controller\favicon.ico' not found in D:\WorkSpace\Other\ebayis\bootstrap.php:107
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\index.php(5): require()
+#1 {main}
+  thrown in D:\WorkSpace\Other\ebayis\bootstrap.php on line 107
+[04-Apr-2019 06:59:41 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Swagger\Client\Controller\favicon.ico' not found in D:\WorkSpace\Other\ebayis\bootstrap.php:107
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\index.php(5): require()
+#1 {main}
+  thrown in D:\WorkSpace\Other\ebayis\bootstrap.php on line 107
+[04-Apr-2019 06:59:50 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Swagger\Client\Controller\favicon.ico' not found in D:\WorkSpace\Other\ebayis\bootstrap.php:107
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\index.php(5): require()
+#1 {main}
+  thrown in D:\WorkSpace\Other\ebayis\bootstrap.php on line 107
+[04-Apr-2019 07:00:15 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Swagger\Client\Controller\favicon.ico' not found in D:\WorkSpace\Other\ebayis\bootstrap.php:107
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\index.php(5): require()
+#1 {main}
+  thrown in D:\WorkSpace\Other\ebayis\bootstrap.php on line 107
+[04-Apr-2019 07:00:58 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Swagger\Client\Controller\favicon.ico' not found in D:\WorkSpace\Other\ebayis\bootstrap.php:107
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\index.php(5): require()
+#1 {main}
+  thrown in D:\WorkSpace\Other\ebayis\bootstrap.php on line 107
+[04-Apr-2019 07:02:04 Asia/Shanghai] PHP Fatal error:  Uncaught InvalidArgumentException: json_decode error: Syntax error in D:\WorkSpace\Other\ebayis\vendor\guzzlehttp\guzzle\src\functions.php:304
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\lib\Controller\GetSkuBatteryList.php(40): GuzzleHttp\json_decode(NULL, true)
+#1 D:\WorkSpace\Other\ebayis\bootstrap.php(108): Swagger\Client\Controller\GetSkuBatteryList->index()
+#2 D:\WorkSpace\Other\ebayis\index.php(5): require('D:\\WorkSpace\\Ot...')
+#3 {main}
+  thrown in D:\WorkSpace\Other\ebayis\vendor\guzzlehttp\guzzle\src\functions.php on line 304
+[04-Apr-2019 07:02:05 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Swagger\Client\Controller\favicon.ico' not found in D:\WorkSpace\Other\ebayis\bootstrap.php:107
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\index.php(5): require()
+#1 {main}
+  thrown in D:\WorkSpace\Other\ebayis\bootstrap.php on line 107
+[04-Apr-2019 07:04:18 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Swagger\Client\Controller\favicon.ico' not found in D:\WorkSpace\Other\ebayis\bootstrap.php:107
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\index.php(5): require()
+#1 {main}
+  thrown in D:\WorkSpace\Other\ebayis\bootstrap.php on line 107
+[04-Apr-2019 07:04:21 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Swagger\Client\Controller\favicon.ico' not found in D:\WorkSpace\Other\ebayis\bootstrap.php:107
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\index.php(5): require()
+#1 {main}
+  thrown in D:\WorkSpace\Other\ebayis\bootstrap.php on line 107
+[04-Apr-2019 07:04:50 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Swagger\Client\Controller\favicon.ico' not found in D:\WorkSpace\Other\ebayis\bootstrap.php:107
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\index.php(5): require()
+#1 {main}
+  thrown in D:\WorkSpace\Other\ebayis\bootstrap.php on line 107
+[04-Apr-2019 07:05:14 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Swagger\Client\Controller\favicon.ico' not found in D:\WorkSpace\Other\ebayis\bootstrap.php:107
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\index.php(5): require()
+#1 {main}
+  thrown in D:\WorkSpace\Other\ebayis\bootstrap.php on line 107
+[04-Apr-2019 07:05:34 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Swagger\Client\Controller\favicon.ico' not found in D:\WorkSpace\Other\ebayis\bootstrap.php:107
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\index.php(5): require()
+#1 {main}
+  thrown in D:\WorkSpace\Other\ebayis\bootstrap.php on line 107
+[04-Apr-2019 07:06:00 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Swagger\Client\Controller\favicon.ico' not found in D:\WorkSpace\Other\ebayis\bootstrap.php:107
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\index.php(5): require()
+#1 {main}
+  thrown in D:\WorkSpace\Other\ebayis\bootstrap.php on line 107
+[04-Apr-2019 07:06:03 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Swagger\Client\Controller\favicon.ico' not found in D:\WorkSpace\Other\ebayis\bootstrap.php:107
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\index.php(5): require()
+#1 {main}
+  thrown in D:\WorkSpace\Other\ebayis\bootstrap.php on line 107
+[04-Apr-2019 07:06:41 Asia/Shanghai] PHP Fatal error:  Uncaught InvalidArgumentException: json_decode error: Syntax error in D:\WorkSpace\Other\ebayis\vendor\guzzlehttp\guzzle\src\functions.php:304
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\lib\Controller\GetSkuBatteryList.php(40): GuzzleHttp\json_decode(NULL, true)
+#1 D:\WorkSpace\Other\ebayis\bootstrap.php(108): Swagger\Client\Controller\GetSkuBatteryList->index()
+#2 D:\WorkSpace\Other\ebayis\index.php(5): require('D:\\WorkSpace\\Ot...')
+#3 {main}
+  thrown in D:\WorkSpace\Other\ebayis\vendor\guzzlehttp\guzzle\src\functions.php on line 304
+[04-Apr-2019 07:06:41 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Swagger\Client\Controller\favicon.ico' not found in D:\WorkSpace\Other\ebayis\bootstrap.php:107
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\index.php(5): require()
+#1 {main}
+  thrown in D:\WorkSpace\Other\ebayis\bootstrap.php on line 107
+[04-Apr-2019 07:08:09 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Swagger\Client\Controller\favicon.ico' not found in D:\WorkSpace\Other\ebayis\bootstrap.php:107
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\index.php(5): require()
+#1 {main}
+  thrown in D:\WorkSpace\Other\ebayis\bootstrap.php on line 107
+[04-Apr-2019 07:09:10 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Swagger\Client\Controller\favicon.ico' not found in D:\WorkSpace\Other\ebayis\bootstrap.php:107
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\index.php(5): require()
+#1 {main}
+  thrown in D:\WorkSpace\Other\ebayis\bootstrap.php on line 107
+[04-Apr-2019 07:12:55 Asia/Shanghai] PHP Fatal error:  Uncaught InvalidArgumentException: json_decode error: Syntax error in D:\WorkSpace\Other\ebayis\vendor\guzzlehttp\guzzle\src\functions.php:304
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\lib\Controller\GetLabel.php(37): GuzzleHttp\json_decode(NULL, true)
+#1 D:\WorkSpace\Other\ebayis\bootstrap.php(108): Swagger\Client\Controller\GetLabel->index()
+#2 D:\WorkSpace\Other\ebayis\index.php(5): require('D:\\WorkSpace\\Ot...')
+#3 {main}
+  thrown in D:\WorkSpace\Other\ebayis\vendor\guzzlehttp\guzzle\src\functions.php on line 304
+[04-Apr-2019 07:13:16 Asia/Shanghai] PHP Fatal error:  Uncaught InvalidArgumentException: json_decode error: Syntax error in D:\WorkSpace\Other\ebayis\vendor\guzzlehttp\guzzle\src\functions.php:304
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\lib\Controller\GetItemPackageId.php(37): GuzzleHttp\json_decode(NULL, true)
+#1 D:\WorkSpace\Other\ebayis\bootstrap.php(108): Swagger\Client\Controller\GetItemPackageId->index()
+#2 D:\WorkSpace\Other\ebayis\index.php(5): require('D:\\WorkSpace\\Ot...')
+#3 {main}
+  thrown in D:\WorkSpace\Other\ebayis\vendor\guzzlehttp\guzzle\src\functions.php on line 304
+[04-Apr-2019 07:13:38 Asia/Shanghai] PHP Fatal error:  Uncaught Swagger\Client\ApiException: [0] cURL error 7: Failed to connect to istslb01.eastasia.cloudapp.azure.com port 443: Timed out (see http://curl.haxx.se/libcurl/c/libcurl-errors.html) in D:\WorkSpace\Other\ebayis\lib\Api\DefaultEbayClient.php:2358
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\lib\Api\DefaultEbayClient.php(2333): Swagger\Client\Api\DefaultEbayClient->fetchTokenWithHttpInfo('https://istslb0...', '90280718', '91678cba5dc448d...')
+#1 D:\WorkSpace\Other\ebayis\lib\Controller\FetchToken.php(18): Swagger\Client\Api\DefaultEbayClient->fetchToken('https://istslb0...', '90280718', '91678cba5dc448d...')
+#2 D:\WorkSpace\Other\ebayis\bootstrap.php(108): Swagger\Client\Controller\FetchToken->index()
+#3 D:\WorkSpace\Other\ebayis\index.php(5): require('D:\\WorkSpace\\Ot...')
+#4 {main}
+  thrown in D:\WorkSpace\Other\ebayis\lib\Api\DefaultEbayClient.php on line 2358
+[04-Apr-2019 07:13:38 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Swagger\Client\Controller\favicon.ico' not found in D:\WorkSpace\Other\ebayis\bootstrap.php:107
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\index.php(5): require()
+#1 {main}
+  thrown in D:\WorkSpace\Other\ebayis\bootstrap.php on line 107
+[04-Apr-2019 07:13:38 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Swagger\Client\Controller\favicon.ico' not found in D:\WorkSpace\Other\ebayis\bootstrap.php:107
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\index.php(5): require()
+#1 {main}
+  thrown in D:\WorkSpace\Other\ebayis\bootstrap.php on line 107
+[04-Apr-2019 07:13:38 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Swagger\Client\Controller\favicon.ico' not found in D:\WorkSpace\Other\ebayis\bootstrap.php:107
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\index.php(5): require()
+#1 {main}
+  thrown in D:\WorkSpace\Other\ebayis\bootstrap.php on line 107
+[04-Apr-2019 09:50:23 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Swagger\Client\Controller\favicon.ico' not found in D:\WorkSpace\Other\ebayis\bootstrap.php:107
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\index.php(5): require()
+#1 {main}
+  thrown in D:\WorkSpace\Other\ebayis\bootstrap.php on line 107
+[04-Apr-2019 09:50:28 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Swagger\Client\Controller\favicon.ico' not found in D:\WorkSpace\Other\ebayis\bootstrap.php:107
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\index.php(5): require()
+#1 {main}
+  thrown in D:\WorkSpace\Other\ebayis\bootstrap.php on line 107
+[04-Apr-2019 09:50:37 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Swagger\Client\Controller\favicon.ico' not found in D:\WorkSpace\Other\ebayis\bootstrap.php:107
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\index.php(5): require()
+#1 {main}
+  thrown in D:\WorkSpace\Other\ebayis\bootstrap.php on line 107
+[04-Apr-2019 09:53:18 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Swagger\Client\Controller\favicon.ico' not found in D:\WorkSpace\Other\ebayis\bootstrap.php:107
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\index.php(5): require()
+#1 {main}
+  thrown in D:\WorkSpace\Other\ebayis\bootstrap.php on line 107
+[04-Apr-2019 09:58:28 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Swagger\Client\Controller\favicon.ico' not found in D:\WorkSpace\Other\ebayis\bootstrap.php:107
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\index.php(5): require()
+#1 {main}
+  thrown in D:\WorkSpace\Other\ebayis\bootstrap.php on line 107
+[04-Apr-2019 09:58:56 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Swagger\Client\Controller\favicon.ico' not found in D:\WorkSpace\Other\ebayis\bootstrap.php:107
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\index.php(5): require()
+#1 {main}
+  thrown in D:\WorkSpace\Other\ebayis\bootstrap.php on line 107
+[04-Apr-2019 09:59:16 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Swagger\Client\Controller\favicon.ico' not found in D:\WorkSpace\Other\ebayis\bootstrap.php:107
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\index.php(5): require()
+#1 {main}
+  thrown in D:\WorkSpace\Other\ebayis\bootstrap.php on line 107
+[04-Apr-2019 09:59:23 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Swagger\Client\Controller\favicon.ico' not found in D:\WorkSpace\Other\ebayis\bootstrap.php:107
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\index.php(5): require()
+#1 {main}
+  thrown in D:\WorkSpace\Other\ebayis\bootstrap.php on line 107
+[04-Apr-2019 09:59:25 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Swagger\Client\Controller\favicon.ico' not found in D:\WorkSpace\Other\ebayis\bootstrap.php:107
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\index.php(5): require()
+#1 {main}
+  thrown in D:\WorkSpace\Other\ebayis\bootstrap.php on line 107
+[04-Apr-2019 09:59:57 Asia/Shanghai] PHP Fatal error:  Uncaught Exception: Swagger\Client\Model\SkuBatteryResponses not find. in D:\WorkSpace\Other\ebayis\bootstrap.php:62
+Stack trace:
+#0 [internal function]: {closure}('Swagger\\Client\\...')
+#1 [internal function]: spl_autoload_call('Swagger\\Client\\...')
+#2 D:\WorkSpace\Other\ebayis\lib\ObjectSerializer.php(286): method_exists('\\Swagger\\Client...', 'getAllowableEnu...')
+#3 D:\WorkSpace\Other\ebayis\lib\ObjectSerializer.php(247): Swagger\Client\ObjectSerializer::deserialize(Object(stdClass), '\\Swagger\\Client...', NULL)
+#4 D:\WorkSpace\Other\ebayis\lib\ObjectSerializer.php(311): Swagger\Client\ObjectSerializer::deserialize(Array, '\\Swagger\\Client...', NULL)
+#5 D:\WorkSpace\Other\ebayis\lib\ObjectSerializer.php(311): Swagger\Client\ObjectSerializer::deserialize(Object(stdClass), '\\Swagger\\Client...', NULL)
+#6 D:\WorkSpace\Other\ebayis\lib\Api\DefaultEbayClient.php(5156): Swagger\Client\ObjectSerializer::deserialize(Object(stdClass), '\\Swagger\\Client...', Array)
+#7 D:\WorkSpace\Other\ebayis\lib\Api\Defau in D:\WorkSpace\Other\ebayis\bootstrap.php on line 62
+[04-Apr-2019 09:59:57 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Swagger\Client\Controller\favicon.ico' not found in D:\WorkSpace\Other\ebayis\bootstrap.php:107
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\index.php(5): require()
+#1 {main}
+  thrown in D:\WorkSpace\Other\ebayis\bootstrap.php on line 107
+[04-Apr-2019 10:00:06 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Swagger\Client\Controller\favicon.ico' not found in D:\WorkSpace\Other\ebayis\bootstrap.php:107
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\index.php(5): require()
+#1 {main}
+  thrown in D:\WorkSpace\Other\ebayis\bootstrap.php on line 107
+[04-Apr-2019 10:02:19 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Swagger\Client\Controller\favicon.ico' not found in D:\WorkSpace\Other\ebayis\bootstrap.php:107
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\index.php(5): require()
+#1 {main}
+  thrown in D:\WorkSpace\Other\ebayis\bootstrap.php on line 107
+[04-Apr-2019 10:02:21 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Swagger\Client\Controller\favicon.ico' not found in D:\WorkSpace\Other\ebayis\bootstrap.php:107
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\index.php(5): require()
+#1 {main}
+  thrown in D:\WorkSpace\Other\ebayis\bootstrap.php on line 107
+[04-Apr-2019 10:17:45 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Swagger\Client\Controller\favicon.ico' not found in D:\WorkSpace\Other\ebayis\bootstrap.php:107
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\index.php(5): require()
+#1 {main}
+  thrown in D:\WorkSpace\Other\ebayis\bootstrap.php on line 107
+[12-Apr-2019 21:45:39 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Swagger\Client\Controller\favicon.ico' not found in D:\WorkSpace\Other\ebayis\bootstrap.php:107
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\index.php(5): require()
+#1 {main}
+  thrown in D:\WorkSpace\Other\ebayis\bootstrap.php on line 107
+[12-Apr-2019 21:45:48 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Swagger\Client\Controller\favicon.ico' not found in D:\WorkSpace\Other\ebayis\bootstrap.php:107
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\index.php(5): require()
+#1 {main}
+  thrown in D:\WorkSpace\Other\ebayis\bootstrap.php on line 107
+[12-Apr-2019 21:45:52 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Swagger\Client\Controller\favicon.ico' not found in D:\WorkSpace\Other\ebayis\bootstrap.php:107
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\index.php(5): require()
+#1 {main}
+  thrown in D:\WorkSpace\Other\ebayis\bootstrap.php on line 107
+[12-Apr-2019 21:45:53 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Swagger\Client\Controller\favicon.ico' not found in D:\WorkSpace\Other\ebayis\bootstrap.php:107
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\index.php(5): require()
+#1 {main}
+  thrown in D:\WorkSpace\Other\ebayis\bootstrap.php on line 107
+[12-Apr-2019 21:45:54 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Swagger\Client\Controller\favicon.ico' not found in D:\WorkSpace\Other\ebayis\bootstrap.php:107
+Stack trace:
+#0 D:\WorkSpace\Other\ebayis\index.php(5): require()
+#1 {main}
+  thrown in D:\WorkSpace\Other\ebayis\bootstrap.php on line 107

@@ -1,6 +1,6 @@
 <?php
 /**
- * DirectionsResponses
+ * GetBatteryQualListResponsesData
  *
  * PHP version 5
  *
@@ -33,15 +33,15 @@ use \ArrayAccess;
 use \Swagger\Client\ObjectSerializer;
 
 /**
- * DirectionsResponses Class Doc Comment
+ * GetBatteryQualListResponsesData Class Doc Comment
  *
  * @category Class
- * @description 路向信息
+ * @description 带电资质证书分页信息
  * @package  Swagger\Client
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
-class DirectionsResponses implements ModelInterface, ArrayAccess
+class GetBatteryQualListResponsesData implements ModelInterface, ArrayAccess
 {
     const DISCRIMINATOR = null;
 
@@ -50,7 +50,7 @@ class DirectionsResponses implements ModelInterface, ArrayAccess
       *
       * @var string
       */
-    protected static $swaggerModelName = 'DirectionsResponses';
+    protected static $swaggerModelName = 'GetBatteryQualListResponsesData';
 
     /**
       * Array of property to type mappings. Used for (de)serialization
@@ -58,9 +58,11 @@ class DirectionsResponses implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'battery_types' => 'string',
-        'from' => 'string',
-        'to' => 'string'
+        'page_number' => 'int',
+        'page_size' => 'int',
+        'qual_list' => '\Swagger\Client\Model\BatteryQualResponses[]',
+        'toal_page_number' => 'int',
+        'total_count' => 'int'
     ];
 
     /**
@@ -69,9 +71,11 @@ class DirectionsResponses implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerFormats = [
-        'battery_types' => null,
-        'from' => null,
-        'to' => null
+        'page_number' => 'int32',
+        'page_size' => 'int32',
+        'qual_list' => null,
+        'toal_page_number' => 'int32',
+        'total_count' => 'int32'
     ];
 
     /**
@@ -101,9 +105,11 @@ class DirectionsResponses implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $attributeMap = [
-        'battery_types' => 'batteryTypes',
-        'from' => 'from',
-        'to' => 'to'
+        'page_number' => 'pageNumber',
+        'page_size' => 'pageSize',
+        'qual_list' => 'qualList',
+        'toal_page_number' => 'toalPageNumber',
+        'total_count' => 'totalCount'
     ];
 
     /**
@@ -112,9 +118,11 @@ class DirectionsResponses implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $setters = [
-        'battery_types' => 'setBatteryTypes',
-        'from' => 'setFrom',
-        'to' => 'setTo'
+        'page_number' => 'setPageNumber',
+        'page_size' => 'setPageSize',
+        'qual_list' => 'setQualList',
+        'toal_page_number' => 'setToalPageNumber',
+        'total_count' => 'setTotalCount'
     ];
 
     /**
@@ -123,9 +131,11 @@ class DirectionsResponses implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $getters = [
-        'battery_types' => 'getBatteryTypes',
-        'from' => 'getFrom',
-        'to' => 'getTo'
+        'page_number' => 'getPageNumber',
+        'page_size' => 'getPageSize',
+        'qual_list' => 'getQualList',
+        'toal_page_number' => 'getToalPageNumber',
+        'total_count' => 'getTotalCount'
     ];
 
     /**
@@ -188,9 +198,11 @@ class DirectionsResponses implements ModelInterface, ArrayAccess
      */
     public function __construct(array $data = null)
     {
-        $this->container['battery_types'] = isset($data['battery_types']) ? $data['battery_types'] : null;
-        $this->container['from'] = isset($data['from']) ? $data['from'] : null;
-        $this->container['to'] = isset($data['to']) ? $data['to'] : null;
+        $this->container['page_number'] = isset($data['page_number']) ? $data['page_number'] : null;
+        $this->container['page_size'] = isset($data['page_size']) ? $data['page_size'] : null;
+        $this->container['qual_list'] = isset($data['qual_list']) ? $data['qual_list'] : null;
+        $this->container['toal_page_number'] = isset($data['toal_page_number']) ? $data['toal_page_number'] : null;
+        $this->container['total_count'] = isset($data['total_count']) ? $data['total_count'] : null;
     }
 
     /**
@@ -202,14 +214,20 @@ class DirectionsResponses implements ModelInterface, ArrayAccess
     {
         $invalidProperties = [];
 
-        if ($this->container['battery_types'] === null) {
-            $invalidProperties[] = "'battery_types' can't be null";
+        if ($this->container['page_number'] === null) {
+            $invalidProperties[] = "'page_number' can't be null";
         }
-        if ($this->container['from'] === null) {
-            $invalidProperties[] = "'from' can't be null";
+        if ($this->container['page_size'] === null) {
+            $invalidProperties[] = "'page_size' can't be null";
         }
-        if ($this->container['to'] === null) {
-            $invalidProperties[] = "'to' can't be null";
+        if ($this->container['qual_list'] === null) {
+            $invalidProperties[] = "'qual_list' can't be null";
+        }
+        if ($this->container['toal_page_number'] === null) {
+            $invalidProperties[] = "'toal_page_number' can't be null";
+        }
+        if ($this->container['total_count'] === null) {
+            $invalidProperties[] = "'total_count' can't be null";
         }
         return $invalidProperties;
     }
@@ -227,73 +245,121 @@ class DirectionsResponses implements ModelInterface, ArrayAccess
 
 
     /**
-     * Gets battery_types
+     * Gets page_number
      *
-     * @return string
+     * @return int
      */
-    public function getBatteryTypes()
+    public function getPageNumber()
     {
-        return $this->container['battery_types'];
+        return $this->container['page_number'];
     }
 
     /**
-     * Sets battery_types
+     * Sets page_number
      *
-     * @param string $battery_types 带电类型集合 例：1,2,3。<a target='_blank' href='/open/development-guide-detail?id=63'>请参考带电类型枚举(LiBatteryTypeEnum)说明</a>
+     * @param int $page_number 当前页码
      *
      * @return $this
      */
-    public function setBatteryTypes($battery_types)
+    public function setPageNumber($page_number)
     {
-        $this->container['battery_types'] = $battery_types;
+        $this->container['page_number'] = $page_number;
 
         return $this;
     }
 
     /**
-     * Gets from
+     * Gets page_size
      *
-     * @return string
+     * @return int
      */
-    public function getFrom()
+    public function getPageSize()
     {
-        return $this->container['from'];
+        return $this->container['page_size'];
     }
 
     /**
-     * Sets from
+     * Sets page_size
      *
-     * @param string $from 起始国家代码
+     * @param int $page_size 当前分页大小
      *
      * @return $this
      */
-    public function setFrom($from)
+    public function setPageSize($page_size)
     {
-        $this->container['from'] = $from;
+        $this->container['page_size'] = $page_size;
 
         return $this;
     }
 
     /**
-     * Gets to
+     * Gets qual_list
      *
-     * @return string
+     * @return \Swagger\Client\Model\BatteryQualResponses[]
      */
-    public function getTo()
+    public function getQualList()
     {
-        return $this->container['to'];
+        return $this->container['qual_list'];
     }
 
     /**
-     * Sets to
+     * Sets qual_list
      *
-     * @param string $to 目标国家代码
+     * @param \Swagger\Client\Model\BatteryQualResponses[] $qual_list qual_list
      *
      * @return $this
      */
-    public function setTo($to)
+    public function setQualList($qual_list)
     {
-        $this->container['to'] = $to;
+        $this->container['qual_list'] = $qual_list;
+
+        return $this;
+    }
+
+    /**
+     * Gets toal_page_number
+     *
+     * @return int
+     */
+    public function getToalPageNumber()
+    {
+        return $this->container['toal_page_number'];
+    }
+
+    /**
+     * Sets toal_page_number
+     *
+     * @param int $toal_page_number 总页数
+     *
+     * @return $this
+     */
+    public function setToalPageNumber($toal_page_number)
+    {
+        $this->container['toal_page_number'] = $toal_page_number;
+
+        return $this;
+    }
+
+    /**
+     * Gets total_count
+     *
+     * @return int
+     */
+    public function getTotalCount()
+    {
+        return $this->container['total_count'];
+    }
+
+    /**
+     * Sets total_count
+     *
+     * @param int $total_count 总记录数
+     *
+     * @return $this
+     */
+    public function setTotalCount($total_count)
+    {
+        $this->container['total_count'] = $total_count;
 
         return $this;
     }

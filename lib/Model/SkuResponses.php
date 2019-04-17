@@ -70,7 +70,8 @@ class SkuResponses implements ModelInterface, ArrayAccess
         'sku_number' => 'string',
         'tariff_code' => 'string',
         'weight' => 'float',
-        'width' => 'float'
+        'width' => 'float',
+        'elecQuaId' => 'string'
     ];
 
     /**
@@ -91,7 +92,8 @@ class SkuResponses implements ModelInterface, ArrayAccess
         'sku_number' => null,
         'tariff_code' => null,
         'weight' => null,
-        'width' => null
+        'width' => null,
+        'elecQuaId' => null
     ];
 
     /**
@@ -133,7 +135,8 @@ class SkuResponses implements ModelInterface, ArrayAccess
         'sku_number' => 'skuNumber',
         'tariff_code' => 'tariffCode',
         'weight' => 'weight',
-        'width' => 'width'
+        'width' => 'width',
+        'elecQuaId' => 'elecQuaId'
     ];
 
     /**
@@ -154,7 +157,8 @@ class SkuResponses implements ModelInterface, ArrayAccess
         'sku_number' => 'setSkuNumber',
         'tariff_code' => 'setTariffCode',
         'weight' => 'setWeight',
-        'width' => 'setWidth'
+        'width' => 'setWidth',
+        'elecQuaId' => 'setElecQuaId'
     ];
 
     /**
@@ -175,7 +179,8 @@ class SkuResponses implements ModelInterface, ArrayAccess
         'sku_number' => 'getSkuNumber',
         'tariff_code' => 'getTariffCode',
         'weight' => 'getWeight',
-        'width' => 'getWidth'
+        'width' => 'getWidth',
+        'elecQuaId' => 'getElecQuaId'
     ];
 
     /**
@@ -220,9 +225,11 @@ class SkuResponses implements ModelInterface, ArrayAccess
     }
 
     const NO_BATTERY = '0';
-    const BUILT_IN_BATTERY = '1';
-    const PURE_BATTERY = '2';
-    const SUPPORT_BATTERY = '3';
+    const LITHIUM_ION_BATTERY_PACKED_WITH_EQUIPMENT = '1';
+    const LITHIUM_ION_BATTERY_CONTAINED_IN_EQUIPMENT = '2';
+    const LITHIUM_METAL_BATTERY_PACKED_WITH_EQUIPMENT = '3';
+    const LITHIUM_METAL_BATTERY_CONTAINED_IN_EQUIPMENT = '4';
+    const DRY_PACKED_WITH_EQUIPMENT = '5';
     
 
     
@@ -235,9 +242,11 @@ class SkuResponses implements ModelInterface, ArrayAccess
     {
         return [
             self::NO_BATTERY,
-            self::BUILT_IN_BATTERY,
-            self::PURE_BATTERY,
-            self::SUPPORT_BATTERY,
+            self::LITHIUM_ION_BATTERY_PACKED_WITH_EQUIPMENT,
+            self::LITHIUM_ION_BATTERY_CONTAINED_IN_EQUIPMENT,
+            self::LITHIUM_METAL_BATTERY_PACKED_WITH_EQUIPMENT,
+            self::LITHIUM_METAL_BATTERY_CONTAINED_IN_EQUIPMENT,
+            self::DRY_PACKED_WITH_EQUIPMENT,
         ];
     }
     
@@ -270,6 +279,7 @@ class SkuResponses implements ModelInterface, ArrayAccess
         $this->container['tariff_code'] = isset($data['tariff_code']) ? $data['tariff_code'] : null;
         $this->container['weight'] = isset($data['weight']) ? $data['weight'] : null;
         $this->container['width'] = isset($data['width']) ? $data['width'] : null;
+        $this->container['elecQuaId'] = isset($data['elecQuaId']) ? $data['elecQuaId'] : null;
     }
 
     /**
@@ -297,7 +307,11 @@ class SkuResponses implements ModelInterface, ArrayAccess
                 implode("', '", $allowedValues)
             );
         }
+        if(($this->container['li_battery_type'] !== '0') && ($this->container['elecQuaId'] === null)){
 
+                $invalidProperties[] = "elecQuaId can't be null";
+
+        }
         if ($this->container['name_en'] === null) {
             $invalidProperties[] = "'name_en' can't be null";
         }
@@ -347,6 +361,11 @@ class SkuResponses implements ModelInterface, ArrayAccess
         if (!in_array($this->container['li_battery_type'], $allowedValues)) {
             return false;
         }
+
+        if(($this->container['li_battery_type'] !== '0') && ($this->container['elecQuaId'] === null)){
+                return false;
+        }
+
         if ($this->container['name_en'] === null) {
             return false;
         }
@@ -692,6 +711,28 @@ class SkuResponses implements ModelInterface, ArrayAccess
     public function setWidth($width)
     {
         $this->container['width'] = $width;
+
+        return $this;
+    }
+
+    /**
+     * Gets width
+     *
+     * @return string
+     */
+    public function getElecQuaId(){
+        return $this->container['elecQuaId'];
+    }
+
+    /**
+     * Sets elecQuaId
+     *
+     * @param string $elecQuaId
+     *
+     * @return $this
+     */
+    public function setElecQuaId($elecQuaId){
+        $this->container['elecQuaId'] = $elecQuaId;
 
         return $this;
     }

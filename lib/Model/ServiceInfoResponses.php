@@ -67,8 +67,7 @@ class ServiceInfoResponses implements ModelInterface, ArrayAccess
         'max_weight' => 'float',
         'name_en' => 'string',
         'name_zh' => 'string',
-        'service_id' => 'string',
-        'support_battery_type' => 'string'
+        'service_id' => 'string'
     ];
 
     /**
@@ -86,8 +85,7 @@ class ServiceInfoResponses implements ModelInterface, ArrayAccess
         'max_weight' => null,
         'name_en' => null,
         'name_zh' => null,
-        'service_id' => null,
-        'support_battery_type' => null
+        'service_id' => null
     ];
 
     /**
@@ -126,8 +124,7 @@ class ServiceInfoResponses implements ModelInterface, ArrayAccess
         'max_weight' => 'maxWeight',
         'name_en' => 'nameEn',
         'name_zh' => 'nameZh',
-        'service_id' => 'serviceId',
-        'support_battery_type' => 'supportBatteryType'
+        'service_id' => 'serviceId'
     ];
 
     /**
@@ -145,8 +142,7 @@ class ServiceInfoResponses implements ModelInterface, ArrayAccess
         'max_weight' => 'setMaxWeight',
         'name_en' => 'setNameEn',
         'name_zh' => 'setNameZh',
-        'service_id' => 'setServiceId',
-        'support_battery_type' => 'setSupportBatteryType'
+        'service_id' => 'setServiceId'
     ];
 
     /**
@@ -164,8 +160,7 @@ class ServiceInfoResponses implements ModelInterface, ArrayAccess
         'max_weight' => 'getMaxWeight',
         'name_en' => 'getNameEn',
         'name_zh' => 'getNameZh',
-        'service_id' => 'getServiceId',
-        'support_battery_type' => 'getSupportBatteryType'
+        'service_id' => 'getServiceId'
     ];
 
     /**
@@ -238,7 +233,6 @@ class ServiceInfoResponses implements ModelInterface, ArrayAccess
         $this->container['name_en'] = isset($data['name_en']) ? $data['name_en'] : null;
         $this->container['name_zh'] = isset($data['name_zh']) ? $data['name_zh'] : null;
         $this->container['service_id'] = isset($data['service_id']) ? $data['service_id'] : null;
-        $this->container['support_battery_type'] = isset($data['support_battery_type']) ? $data['support_battery_type'] : null;
     }
 
     /**
@@ -277,9 +271,6 @@ class ServiceInfoResponses implements ModelInterface, ArrayAccess
         if ($this->container['service_id'] === null) {
             $invalidProperties[] = "'service_id' can't be null";
         }
-        if ($this->container['support_battery_type'] === null) {
-            $invalidProperties[] = "'support_battery_type' can't be null";
-        }
         return $invalidProperties;
     }
 
@@ -317,9 +308,6 @@ class ServiceInfoResponses implements ModelInterface, ArrayAccess
             return false;
         }
         if ($this->container['service_id'] === null) {
-            return false;
-        }
-        if ($this->container['support_battery_type'] === null) {
             return false;
         }
         return true;
@@ -566,29 +554,6 @@ class ServiceInfoResponses implements ModelInterface, ArrayAccess
         return $this;
     }
 
-    /**
-     * Gets support_battery_type
-     *
-     * @return string
-     */
-    public function getSupportBatteryType()
-    {
-        return $this->container['support_battery_type'];
-    }
-
-    /**
-     * Sets support_battery_type
-     *
-     * @param string $support_battery_type 支持的带电类型（1.5版本）
-     *
-     * @return $this
-     */
-    public function setSupportBatteryType($support_battery_type)
-    {
-        $this->container['support_battery_type'] = $support_battery_type;
-
-        return $this;
-    }
     /**
      * Returns true if offset exists. False otherwise.
      *

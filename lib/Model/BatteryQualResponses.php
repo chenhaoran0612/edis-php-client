@@ -1,6 +1,6 @@
 <?php
 /**
- * DirectionsResponses
+ * BatteryQualResponses
  *
  * PHP version 5
  *
@@ -33,15 +33,15 @@ use \ArrayAccess;
 use \Swagger\Client\ObjectSerializer;
 
 /**
- * DirectionsResponses Class Doc Comment
+ * BatteryQualResponses Class Doc Comment
  *
  * @category Class
- * @description 路向信息
+ * @description 带电认证信息
  * @package  Swagger\Client
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
-class DirectionsResponses implements ModelInterface, ArrayAccess
+class BatteryQualResponses implements ModelInterface, ArrayAccess
 {
     const DISCRIMINATOR = null;
 
@@ -50,7 +50,7 @@ class DirectionsResponses implements ModelInterface, ArrayAccess
       *
       * @var string
       */
-    protected static $swaggerModelName = 'DirectionsResponses';
+    protected static $swaggerModelName = 'BatteryQualResponses';
 
     /**
       * Array of property to type mappings. Used for (de)serialization
@@ -58,9 +58,11 @@ class DirectionsResponses implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'battery_types' => 'string',
-        'from' => 'string',
-        'to' => 'string'
+        'battery_type' => 'int',
+        'elec_qua_id' => 'string',
+        'elec_qua_name' => 'string',
+        'expire_date' => 'string',
+        'remark' => 'string'
     ];
 
     /**
@@ -69,9 +71,11 @@ class DirectionsResponses implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerFormats = [
-        'battery_types' => null,
-        'from' => null,
-        'to' => null
+        'battery_type' => 'int32',
+        'elec_qua_id' => null,
+        'elec_qua_name' => null,
+        'expire_date' => null,
+        'remark' => null
     ];
 
     /**
@@ -101,9 +105,11 @@ class DirectionsResponses implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $attributeMap = [
-        'battery_types' => 'batteryTypes',
-        'from' => 'from',
-        'to' => 'to'
+        'battery_type' => 'batteryType',
+        'elec_qua_id' => 'elecQuaId',
+        'elec_qua_name' => 'elecQuaName',
+        'expire_date' => 'expireDate',
+        'remark' => 'remark'
     ];
 
     /**
@@ -112,9 +118,11 @@ class DirectionsResponses implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $setters = [
-        'battery_types' => 'setBatteryTypes',
-        'from' => 'setFrom',
-        'to' => 'setTo'
+        'battery_type' => 'setBatteryType',
+        'elec_qua_id' => 'setElecQuaId',
+        'elec_qua_name' => 'setElecQuaName',
+        'expire_date' => 'setExpireDate',
+        'remark' => 'setRemark'
     ];
 
     /**
@@ -123,9 +131,11 @@ class DirectionsResponses implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $getters = [
-        'battery_types' => 'getBatteryTypes',
-        'from' => 'getFrom',
-        'to' => 'getTo'
+        'battery_type' => 'getBatteryType',
+        'elec_qua_id' => 'getElecQuaId',
+        'elec_qua_name' => 'getElecQuaName',
+        'expire_date' => 'getExpireDate',
+        'remark' => 'getRemark'
     ];
 
     /**
@@ -169,8 +179,31 @@ class DirectionsResponses implements ModelInterface, ArrayAccess
         return self::$swaggerModelName;
     }
 
+    const BATTERY_TYPE_0 = 0;
+    const BATTERY_TYPE_1 = 1;
+    const BATTERY_TYPE_2 = 2;
+    const BATTERY_TYPE_3 = 3;
+    const BATTERY_TYPE_4 = 4;
+    const BATTERY_TYPE_5 = 5;
     
 
+    
+    /**
+     * Gets allowable values of the enum
+     *
+     * @return string[]
+     */
+    public function getBatteryTypeAllowableValues()
+    {
+        return [
+            self::BATTERY_TYPE_0,
+            self::BATTERY_TYPE_1,
+            self::BATTERY_TYPE_2,
+            self::BATTERY_TYPE_3,
+            self::BATTERY_TYPE_4,
+            self::BATTERY_TYPE_5,
+        ];
+    }
     
 
     /**
@@ -188,9 +221,11 @@ class DirectionsResponses implements ModelInterface, ArrayAccess
      */
     public function __construct(array $data = null)
     {
-        $this->container['battery_types'] = isset($data['battery_types']) ? $data['battery_types'] : null;
-        $this->container['from'] = isset($data['from']) ? $data['from'] : null;
-        $this->container['to'] = isset($data['to']) ? $data['to'] : null;
+        $this->container['battery_type'] = isset($data['battery_type']) ? $data['battery_type'] : null;
+        $this->container['elec_qua_id'] = isset($data['elec_qua_id']) ? $data['elec_qua_id'] : null;
+        $this->container['elec_qua_name'] = isset($data['elec_qua_name']) ? $data['elec_qua_name'] : null;
+        $this->container['expire_date'] = isset($data['expire_date']) ? $data['expire_date'] : null;
+        $this->container['remark'] = isset($data['remark']) ? $data['remark'] : null;
     }
 
     /**
@@ -202,14 +237,28 @@ class DirectionsResponses implements ModelInterface, ArrayAccess
     {
         $invalidProperties = [];
 
-        if ($this->container['battery_types'] === null) {
-            $invalidProperties[] = "'battery_types' can't be null";
+        if ($this->container['battery_type'] === null) {
+            $invalidProperties[] = "'battery_type' can't be null";
         }
-        if ($this->container['from'] === null) {
-            $invalidProperties[] = "'from' can't be null";
+        $allowedValues = $this->getBatteryTypeAllowableValues();
+        if (!is_null($this->container['battery_type']) && !in_array($this->container['battery_type'], $allowedValues, true)) {
+            $invalidProperties[] = sprintf(
+                "invalid value for 'battery_type', must be one of '%s'",
+                implode("', '", $allowedValues)
+            );
         }
-        if ($this->container['to'] === null) {
-            $invalidProperties[] = "'to' can't be null";
+
+        if ($this->container['elec_qua_id'] === null) {
+            $invalidProperties[] = "'elec_qua_id' can't be null";
+        }
+        if ($this->container['elec_qua_name'] === null) {
+            $invalidProperties[] = "'elec_qua_name' can't be null";
+        }
+        if ($this->container['expire_date'] === null) {
+            $invalidProperties[] = "'expire_date' can't be null";
+        }
+        if ($this->container['remark'] === null) {
+            $invalidProperties[] = "'remark' can't be null";
         }
         return $invalidProperties;
     }
@@ -227,73 +276,130 @@ class DirectionsResponses implements ModelInterface, ArrayAccess
 
 
     /**
-     * Gets battery_types
+     * Gets battery_type
      *
-     * @return string
+     * @return int
      */
-    public function getBatteryTypes()
+    public function getBatteryType()
     {
-        return $this->container['battery_types'];
+        return $this->container['battery_type'];
     }
 
     /**
-     * Sets battery_types
+     * Sets battery_type
      *
-     * @param string $battery_types 带电类型集合 例：1,2,3。<a target='_blank' href='/open/development-guide-detail?id=63'>请参考带电类型枚举(LiBatteryTypeEnum)说明</a>
+     * @param int $battery_type 带电类型，枚举类:LiBatteryTypeEnum
      *
      * @return $this
      */
-    public function setBatteryTypes($battery_types)
+    public function setBatteryType($battery_type)
     {
-        $this->container['battery_types'] = $battery_types;
+        $allowedValues = $this->getBatteryTypeAllowableValues();
+        if (!in_array($battery_type, $allowedValues, true)) {
+            throw new \InvalidArgumentException(
+                sprintf(
+                    "Invalid value for 'battery_type', must be one of '%s'",
+                    implode("', '", $allowedValues)
+                )
+            );
+        }
+        $this->container['battery_type'] = $battery_type;
 
         return $this;
     }
 
     /**
-     * Gets from
+     * Gets elec_qua_id
      *
      * @return string
      */
-    public function getFrom()
+    public function getElecQuaId()
     {
-        return $this->container['from'];
+        return $this->container['elec_qua_id'];
     }
 
     /**
-     * Sets from
+     * Sets elec_qua_id
      *
-     * @param string $from 起始国家代码
+     * @param string $elec_qua_id 证书ID
      *
      * @return $this
      */
-    public function setFrom($from)
+    public function setElecQuaId($elec_qua_id)
     {
-        $this->container['from'] = $from;
+        $this->container['elec_qua_id'] = $elec_qua_id;
 
         return $this;
     }
 
     /**
-     * Gets to
+     * Gets elec_qua_name
      *
      * @return string
      */
-    public function getTo()
+    public function getElecQuaName()
     {
-        return $this->container['to'];
+        return $this->container['elec_qua_name'];
     }
 
     /**
-     * Sets to
+     * Sets elec_qua_name
      *
-     * @param string $to 目标国家代码
+     * @param string $elec_qua_name 证书名称
      *
      * @return $this
      */
-    public function setTo($to)
+    public function setElecQuaName($elec_qua_name)
     {
-        $this->container['to'] = $to;
+        $this->container['elec_qua_name'] = $elec_qua_name;
+
+        return $this;
+    }
+
+    /**
+     * Gets expire_date
+     *
+     * @return string
+     */
+    public function getExpireDate()
+    {
+        return $this->container['expire_date'];
+    }
+
+    /**
+     * Sets expire_date
+     *
+     * @param string $expire_date 有效时间
+     *
+     * @return $this
+     */
+    public function setExpireDate($expire_date)
+    {
+        $this->container['expire_date'] = $expire_date;
+
+        return $this;
+    }
+
+    /**
+     * Gets remark
+     *
+     * @return string
+     */
+    public function getRemark()
+    {
+        return $this->container['remark'];
+    }
+
+    /**
+     * Sets remark
+     *
+     * @param string $remark 备注
+     *
+     * @return $this
+     */
+    public function setRemark($remark)
+    {
+        $this->container['remark'] = $remark;
 
         return $this;
     }

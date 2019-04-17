@@ -1,6 +1,6 @@
 <?php
 /**
- * DirectionsResponses
+ * GetBatteryQualListRequestData
  *
  * PHP version 5
  *
@@ -33,15 +33,14 @@ use \ArrayAccess;
 use \Swagger\Client\ObjectSerializer;
 
 /**
- * DirectionsResponses Class Doc Comment
+ * GetBatteryQualListRequestData Class Doc Comment
  *
  * @category Class
- * @description 路向信息
  * @package  Swagger\Client
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
-class DirectionsResponses implements ModelInterface, ArrayAccess
+class GetBatteryQualListRequestData implements ModelInterface, ArrayAccess
 {
     const DISCRIMINATOR = null;
 
@@ -50,7 +49,7 @@ class DirectionsResponses implements ModelInterface, ArrayAccess
       *
       * @var string
       */
-    protected static $swaggerModelName = 'DirectionsResponses';
+    protected static $swaggerModelName = 'GetBatteryQualListRequestData';
 
     /**
       * Array of property to type mappings. Used for (de)serialization
@@ -58,9 +57,8 @@ class DirectionsResponses implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'battery_types' => 'string',
-        'from' => 'string',
-        'to' => 'string'
+        'page_number' => 'int',
+        'page_size' => 'int'
     ];
 
     /**
@@ -69,9 +67,8 @@ class DirectionsResponses implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerFormats = [
-        'battery_types' => null,
-        'from' => null,
-        'to' => null
+        'page_number' => 'int32',
+        'page_size' => 'int32'
     ];
 
     /**
@@ -101,9 +98,8 @@ class DirectionsResponses implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $attributeMap = [
-        'battery_types' => 'batteryTypes',
-        'from' => 'from',
-        'to' => 'to'
+        'page_number' => 'pageNumber',
+        'page_size' => 'pageSize'
     ];
 
     /**
@@ -112,9 +108,8 @@ class DirectionsResponses implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $setters = [
-        'battery_types' => 'setBatteryTypes',
-        'from' => 'setFrom',
-        'to' => 'setTo'
+        'page_number' => 'setPageNumber',
+        'page_size' => 'setPageSize'
     ];
 
     /**
@@ -123,9 +118,8 @@ class DirectionsResponses implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $getters = [
-        'battery_types' => 'getBatteryTypes',
-        'from' => 'getFrom',
-        'to' => 'getTo'
+        'page_number' => 'getPageNumber',
+        'page_size' => 'getPageSize'
     ];
 
     /**
@@ -188,9 +182,8 @@ class DirectionsResponses implements ModelInterface, ArrayAccess
      */
     public function __construct(array $data = null)
     {
-        $this->container['battery_types'] = isset($data['battery_types']) ? $data['battery_types'] : null;
-        $this->container['from'] = isset($data['from']) ? $data['from'] : null;
-        $this->container['to'] = isset($data['to']) ? $data['to'] : null;
+        $this->container['page_number'] = isset($data['page_number']) ? $data['page_number'] : null;
+        $this->container['page_size'] = isset($data['page_size']) ? $data['page_size'] : null;
     }
 
     /**
@@ -202,15 +195,6 @@ class DirectionsResponses implements ModelInterface, ArrayAccess
     {
         $invalidProperties = [];
 
-        if ($this->container['battery_types'] === null) {
-            $invalidProperties[] = "'battery_types' can't be null";
-        }
-        if ($this->container['from'] === null) {
-            $invalidProperties[] = "'from' can't be null";
-        }
-        if ($this->container['to'] === null) {
-            $invalidProperties[] = "'to' can't be null";
-        }
         return $invalidProperties;
     }
 
@@ -227,73 +211,49 @@ class DirectionsResponses implements ModelInterface, ArrayAccess
 
 
     /**
-     * Gets battery_types
+     * Gets page_number
      *
-     * @return string
+     * @return int
      */
-    public function getBatteryTypes()
+    public function getPageNumber()
     {
-        return $this->container['battery_types'];
+        return $this->container['page_number'];
     }
 
     /**
-     * Sets battery_types
+     * Sets page_number
      *
-     * @param string $battery_types 带电类型集合 例：1,2,3。<a target='_blank' href='/open/development-guide-detail?id=63'>请参考带电类型枚举(LiBatteryTypeEnum)说明</a>
+     * @param int $page_number 页码，默认值：1
      *
      * @return $this
      */
-    public function setBatteryTypes($battery_types)
+    public function setPageNumber($page_number)
     {
-        $this->container['battery_types'] = $battery_types;
+        $this->container['page_number'] = $page_number;
 
         return $this;
     }
 
     /**
-     * Gets from
+     * Gets page_size
      *
-     * @return string
+     * @return int
      */
-    public function getFrom()
+    public function getPageSize()
     {
-        return $this->container['from'];
+        return $this->container['page_size'];
     }
 
     /**
-     * Sets from
+     * Sets page_size
      *
-     * @param string $from 起始国家代码
+     * @param int $page_size 分页大小，默认值：50，最大值1000
      *
      * @return $this
      */
-    public function setFrom($from)
+    public function setPageSize($page_size)
     {
-        $this->container['from'] = $from;
-
-        return $this;
-    }
-
-    /**
-     * Gets to
-     *
-     * @return string
-     */
-    public function getTo()
-    {
-        return $this->container['to'];
-    }
-
-    /**
-     * Sets to
-     *
-     * @param string $to 目标国家代码
-     *
-     * @return $this
-     */
-    public function setTo($to)
-    {
-        $this->container['to'] = $to;
+        $this->container['page_size'] = $page_size;
 
         return $this;
     }
